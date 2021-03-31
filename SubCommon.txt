@@ -1,0 +1,919 @@
+﻿#if<SkinType==Touch>
+	<ControlBoxSkinArea Image="TouchControl.png" AlphaMode="1" Width="293" Height="472" UseWindowFrame="0" >
+		<Control>
+			<Static Align="Top" LeftMargin="10" RightMargin="10" ImageLeft="3" ImageTop="4" ImageWidth="293" ImageHeight="472" Height="472" UsingRgn="1" >
+				<Button Tooltip="$CMD_CLOSE_WINDOW" CmdID="ID_CONTROL_BOX_WINDOW" Left="-24" Top="5" Width="18" Height="16" ImageLeft="319" ImageTop="9" />
+
+				<Button CmdID="CMD_SELECT_PAGE" PageIndex="0" Left="2" Top="28" Width="75" Height="43" ImageLeft="316" ImageTop="312">
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="13" Text="$CONTROL_SUBTITLE" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+				</Button>
+				<Button CmdID="CMD_SELECT_PAGE" PageIndex="1" Left="75" Top="28" Width="75" Height="43" ImageLeft="316" ImageTop="312">
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="13" Text="$CONTROL_VIDEO" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+				</Button>
+				<Button CmdID="CMD_SELECT_PAGE" PageIndex="2" Left="148" Top="28" Width="75" Height="43" ImageLeft="316" ImageTop="312">
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="13" Text="$CONTROL_PLAYBACK" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+				</Button>
+				<Button CmdID="CMD_SELECT_PAGE" PageIndex="3" Left="221" Top="28" Width="75" Height="43" ImageLeft="316" ImageTop="312">
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="13" Text="$CONTROL_AUDIO" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+				</Button>
+				<Image Left="292" Top="28" Width="1" Height="43" ImageLeft="295" ImageTop="31" ImageWidth="1" ImageHeight="43" />
+
+				<Static State="CMD_PAGE_CONTROL" PageIndex="0" Left="2" Top="71" ImageLeft="4" ImageTop="76" ImageWidth="290" ImageHeight="390" Width="290" Height="390" >
+
+					<Label CmdID="CMD_CAPTION_SIZE_MESSAGE" FontName="#DEFAULT_UI_FONT" Left="20" Top="25" Width="61" Height="24" FontSize="13" FontBold="1" Text="$CONTROL_CAPTION_SIZE" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="ID_CAPTION_DEC_SIZE" Left="20" Top="50" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_DEC" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+					<Button CmdID="ID_CAPTION_DEF_SIZE" Left="106" Top="50" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_DEFAULT" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+					<Button CmdID="ID_CAPTION_INC_SIZE" Left="192" Top="50" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_INC" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+
+					<Label CmdID="CMD_CAPTION_VERT_MESSAGE" FontName="#DEFAULT_UI_FONT" Left="20" Top="95" Width="66" FontName="#DEFAULT_UI_FONT" FontSize="13" FontBold="1" Text="$CONTROL_POSITION1" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="ID_CAPTION_MOVE_UP" Left="20" Top="120" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_UP1" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+					<Button CmdID="ID_CAPTION_RESET_POS" Left="106" Top="120" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_DEFAULT" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+					<Button CmdID="ID_CAPTION_MOVE_DOWN" Left="192" Top="120" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_DOWN1" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+
+					<Label Left="20" Top="165" Width="66" Height="24" FontName="#DEFAULT_UI_FONT" FontSize="13" FontBold="1" Text="$CONTROL_FONT" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="ID_CAPTION_FONT_SELECT" Left="20" Top="190" Width="252" Height="27" ImageLeft="318" ImageTop="33" />
+					<Label CmdID="CMD_CAPTION_FONT_MESSAGE" Left="30" Top="191" Width="200" Height="25" FontName="#DEFAULT_UI_FONT" FontSize="13" VertAlignment="1" ColorX="321" ColorY="381" Ellipsis="1" />
+
+					<Label Left="20" Top="240" Width="66" Height="24" FontName="#DEFAULT_UI_FONT" FontSize="13" FontBold="1" Text="$CONTROL_CAPTION_SEL" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="CMD_POPUPMENU_CAPTION_LANG" Left="20" Top="265" Width="252" Height="27" ImageLeft="318" ImageTop="33" />
+					<Label CmdID="CMD_CAPTION_SEL_MESSAGE" Left="30" Top="266" Width="200" Height="25" FontName="#DEFAULT_UI_FONT" FontSize="13" VertAlignment="1" ColorX="321" ColorY="381" Ellipsis="1" />
+
+					<Label CmdID="CMD_CAPTION_SYNC_MESSAGE" Left="20" Top="315" Width="66" Height="24" FontName="#DEFAULT_UI_FONT" FontSize="13" FontBold="1" Text="$CONTROL_SUBTITLE_SYNC1" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="ID_CAPTION_SLOW_SYNC" Left="20" Top="340" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_SUBTITLE_SLOWER" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+					<Button CmdID="ID_CAPTION_RESET_SYNC" Left="106" Top="340" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_SUBTITLE_DEFAULT" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+					<Button CmdID="ID_CAPTION_FAST_SYNC" Left="192" Top="340" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_SUBTITLE_FASTER" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+
+				</Static>
+				<Static State="CMD_PAGE_CONTROL" PageIndex="1" Left="2" Top="71" ImageLeft="4" ImageTop="76" ImageWidth="290" ImageHeight="390" Width="290" Height="390" >
+
+					<Label FontName="#DEFAULT_UI_FONT" Left="20" Top="25" Width="61" Height="24" FontSize="13" FontBold="1" Text="$CONTROL_VIDEO_COLOR" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="ID_VIDEO_RESET_PROPERTY" Left="192" Top="25" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_VIDEO_DEFAULT" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+
+					<Label CmdID="CMD_COLOR_OFFSET_MESSAGE" FontName="#DEFAULT_UI_FONT" Left="1" Top="61" Width="100" Height="20" FontSize="11" Text="$CONTROL_BRIGHTNESS" HoriAlignment="2" VertAlignment="1" ColorX="321" ColorY="381" />
+					<Slider CmdID="CMD_COLOR_OFFSET" Left="110" Top="66" Width="170" Height="8" ImageWidth="170" ImageHeight="8" ThumbWidth="14" ThumbHeight="8" ImageLeft="318" ImageTop="218" BackImageLeft="318" BackImageTop="240" ThumbImageLeft="512" ThumbImageTop="218" LeftMargin="5" RightMargin="5" Cursor="Hand" />
+
+					<Label CmdID="CMD_COLOR_GAIN_MESSAGE" FontName="#DEFAULT_UI_FONT" Left="1" Top="95" Width="100" Height="20" FontSize="11" Text="$CONTROL_CONTRAST" HoriAlignment="2" VertAlignment="1" ColorX="321" ColorY="381" />
+					<Slider CmdID="CMD_COLOR_GAIN" Left="110" Top="99" Width="170" Height="8" ImageWidth="170" ImageHeight="8" ThumbWidth="14" ThumbHeight="8" ImageLeft="318" ImageTop="218" BackImageLeft="318" BackImageTop="240" ThumbImageLeft="512" ThumbImageTop="218" LeftMargin="5" RightMargin="5" Cursor="Hand" />
+
+					<Label CmdID="CMD_COLOR_SAT_MESSAGE" FontName="#DEFAULT_UI_FONT" Left="1" Top="129" Width="100" Height="20" FontSize="11" Text="$CONTROL_SATURATION" HoriAlignment="2" VertAlignment="1" ColorX="321" ColorY="381" />
+					<Slider CmdID="CMD_COLOR_SAT" Left="110" Top="133" Width="170" Height="8" ImageWidth="170" ImageHeight="8" ThumbWidth="14" ThumbHeight="8" ImageLeft="318" ImageTop="218" BackImageLeft="318" BackImageTop="240" ThumbImageLeft="512" ThumbImageTop="218" LeftMargin="5" RightMargin="5" Cursor="Hand" />
+
+					<Label CmdID="CMD_COLOR_HUE_MESSAGE" FontName="#DEFAULT_UI_FONT" Left="1" Top="163" Width="100" Height="20" FontSize="11" Text="$CONTROL_COLOR" HoriAlignment="2" VertAlignment="1" ColorX="321" ColorY="381" />
+					<Slider CmdID="CMD_COLOR_HUE" Left="110" Top="167" Width="170" Height="8" ImageWidth="170" ImageHeight="8" ThumbWidth="14" ThumbHeight="8" ImageLeft="318" ImageTop="218" BackImageLeft="318" BackImageTop="240" ThumbImageLeft="512" ThumbImageTop="218" LeftMargin="5" RightMargin="5" Cursor="Hand" />
+
+					<Label Left="20" Top="200" Width="66" Height="24" FontName="#DEFAULT_UI_FONT" FontSize="13" FontBold="1" Text="$CONTROL_VIDEO_RATIO" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="CMD_POPUPMENU_SCREEN_RATIO" Left="20" Top="225" Width="252" Height="27" ImageLeft="318" ImageTop="33" />
+					<Label CmdID="CMD_SCREEN_RATIO_MESSAGE" Left="30" Top="226" Width="200" Height="25" FontName="#DEFAULT_UI_FONT" FontSize="13" VertAlignment="1" ColorX="321" ColorY="381" Ellipsis="1" />
+
+					<Label Left="20" Top="270" Width="66" Height="24" FontName="#DEFAULT_UI_FONT" FontSize="13" FontBold="1" Text="$CONTROL_VIDEO_SEL" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="CMD_POPUPMENU_VIDEO_STREAM" Left="20" Top="295" Width="252" Height="27" ImageLeft="318" ImageTop="33" />
+					<Label CmdID="CMD_VIDEO_SEL_MESSAGE" Left="30" Top="296" Width="200" Height="25" FontName="#DEFAULT_UI_FONT" FontSize="13" VertAlignment="1" ColorX="321" ColorY="381" Ellipsis="1" />
+
+					<Button CmdID="ID_VIDEO_IMAGE_CAPTURE_PROMPT" Left="20" Top="340" Width="252" Height="27" ImageLeft="318" ImageTop="171">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_CAPTURE" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+
+				</Static>
+				<Static State="CMD_PAGE_CONTROL" PageIndex="2" Left="2" Top="71" ImageLeft="4" ImageTop="76" ImageWidth="290" ImageHeight="390" Width="290" Height="390" >
+					<Label FontName="#DEFAULT_UI_FONT" Left="20" Top="25" Width="61" Height="24" FontSize="13" FontBold="1" Text="$CONTROL_SEEK_5" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="CMD_POPUPMENU_SEEK_5" Left="20" Top="50" Width="252" Height="27" ImageLeft="318" ImageTop="33" />
+					<Label CmdID="CMD_SEEK_5_MESSAGE" Left="30" Top="51" Width="200" Height="25" FontName="#DEFAULT_UI_FONT" FontSize="13" VertAlignment="1" ColorX="321" ColorY="381" AutoSize="1" />
+
+					<Label FontName="#DEFAULT_UI_FONT" Left="20" Top="95" Width="61" Height="24" FontSize="13" FontBold="1" Text="$CONTROL_SEEK_30" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="CMD_POPUPMENU_SEEK_30" Left="20" Top="120" Width="252" Height="27" ImageLeft="318" ImageTop="33" />
+					<Label CmdID="CMD_SEEK_30_MESSAGE" Left="30" Top="121" Width="200" Height="25" FontName="#DEFAULT_UI_FONT" FontSize="13" VertAlignment="1" ColorX="321" ColorY="381" AutoSize="1" />
+
+					<Label FontName="#DEFAULT_UI_FONT" Left="20" Top="165" Width="61" Height="24" FontSize="13" FontBold="1" Text="$CONTROL_SEEK_60" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="CMD_POPUPMENU_SEEK_60" Left="20" Top="190" Width="252" Height="27" ImageLeft="318" ImageTop="33" />
+					<Label CmdID="CMD_SEEK_60_MESSAGE" Left="30" Top="191" Width="200" Height="25" FontName="#DEFAULT_UI_FONT" FontSize="13" VertAlignment="1" ColorX="321" ColorY="381" AutoSize="1" />
+
+					<Label FontName="#DEFAULT_UI_FONT" Left="20" Top="235" Width="61" Height="24" FontSize="13" FontBold="1" Text="$CONTROL_AB" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="ID_PLAY_REPEAT_RESET" Left="20" Top="260" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_STOP" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+					<Label CmdID="CMD_REPEAT_START_MESSAGE" FontName="#DEFAULT_UI_FONT" Left="106" Top="235" Width="82" Height="24" FontSize="12" ColorX="321" ColorY="381" AutoVisible="1" HoriAlignment="1" />
+					<Button CmdID="ID_PLAY_REPEAT_START_SET" Left="106" Top="260" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_A" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+					<Label CmdID="CMD_REPEAT_END_MESSAGE" FontName="#DEFAULT_UI_FONT" Left="192" Top="235" Width="82" Height="24" FontSize="12" ColorX="321" ColorY="381" AutoVisible="1" HoriAlignment="1" />
+					<Button CmdID="ID_PLAY_REPEAT_STOP_SET" Left="192" Top="260" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_B" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+
+					<Label CmdID="CMD_PLAY_SPEED_MESSAGE" Left="20" Top="305" Width="66" Height="24" FontName="#DEFAULT_UI_FONT" FontSize="13" FontBold="1" Text="$CONTROL_PLAYBACK_SPEED1" ColorX="321" ColorY="381" AutoSize="1" />
+					<Label Left="20" Top="335" Width="25" Height="10" FontName="#DEFAULT_UI_FONT" AutoSize="1" FontSize="11" FontBold="1" Text="0.5" ColorX="321" ColorY="381" HoriAlignment="0" VertAlignment="1" />
+					<Label Left="250" Top="335" Width="25" Height="10" FontName="#DEFAULT_UI_FONT" AutoSize="1" FontSize="11" FontBold="1" Text="2.0" ColorX="321" ColorY="381" HoriAlignment="1" VertAlignment="1" />
+					<Slider CmdID="CMD_SPEED_CTRL" Left="50" Top="335" Width="188" Height="8" MinValue="500" MaxValue="2000" ImageWidth="188" ImageHeight="8" ThumbWidth="14" ThumbHeight="8" ImageLeft="318" ImageTop="263" BackImageLeft="318" BackImageTop="285" ThumbImageLeft="517" ThumbImageTop="262" LeftMargin="5" RightMargin="5" Cursor="Hand" />
+					<Button CmdID="ID_PLAY_SPEED_SLOWER" Left="20" Top="360" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_PLAYBACK_SLOWER" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+					<Button CmdID="ID_PLAY_SPEED_NORMAL" Left="106" Top="360" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_PLAYBACK_DEFAULT" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+					<Button CmdID="ID_PLAY_SPEED_FASTER" Left="192" Top="360" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_PLAYBACK_FASTER" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+
+				</Static>
+				<Static State="CMD_PAGE_CONTROL" PageIndex="3" Left="2" Top="71" ImageLeft="4" ImageTop="76" ImageWidth="290" ImageHeight="390" Width="290" Height="390" >
+
+					<Label FontName="#DEFAULT_UI_FONT" Left="20" Top="25" Width="61" Height="24" FontSize="13" FontBold="1" Text="$CONTROL_AUDIO_SEL" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="CMD_POPUPMENU_AUDIO_LANG" Left="20" Top="50" Width="252" Height="27" ImageLeft="318" ImageTop="33" />
+					<Label CmdID="CMD_AUDIO_SEL_MESSAGE" Left="30" Top="51" Width="200" Height="25" FontName="#DEFAULT_UI_FONT" FontSize="13" VertAlignment="1" ColorX="321" ColorY="381" Ellipsis="1" />
+
+					<Label FontName="#DEFAULT_UI_FONT" Left="20" Top="105" Width="61" Height="24" FontSize="13" FontBold="1" Text="$CONTROL_EQUALIZER" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="CMD_POPUPMENU_AUDIO_EQULIZER" Left="20" Top="130" Width="252" Height="27" ImageLeft="318" ImageTop="33" />
+					<Label CmdID="CMD_EQ_PRESET_MESSAGE" Left="30" Top="131" Width="200" Height="25" FontName="#DEFAULT_UI_FONT" FontSize="13" VertAlignment="1" ColorX="321" ColorY="381" Ellipsis="1" />
+
+					<Label CmdID="CMD_PLAY_SYNC_MESSAGE" Left="20" Top="185" Width="66" Height="24" FontName="#DEFAULT_UI_FONT" FontSize="13" FontBold="1" Text="$CONTROL_PLAYBACK_SYNC" ColorX="321" ColorY="381" AutoSize="1" />
+					<Button CmdID="ID_AUDIO_SLOWER" Left="20" Top="210" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_SUBTITLE_SLOWER" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+					<Button CmdID="ID_AUDIO_NORMAL" Left="106" Top="210" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_SUBTITLE_DEFAULT" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+					<Button CmdID="ID_AUDIO_FASTER" Left="192" Top="210" Width="82" Height="24" ImageLeft="318" ImageTop="80">
+						<Label FontName="#DEFAULT_UI_FONT" FontSize="11" Text="$CONTROL_SUBTITLE_FASTER" HoriAlignment="1" VertAlignment="1" ColorX="321" ColorY="381" />
+					</Button>
+
+					<Label CmdID="CMD_MASTER_VOLUME_MESSAGE" Left="20" Top="260" Width="66" Height="24" FontName="#DEFAULT_UI_FONT" FontSize="13" FontBold="1" Text="$CONTROL_AUDIO_MASTER_VOLUME" ColorX="321" ColorY="381" AutoSize="1" />
+					<Slider CmdID="CMD_MASTER_VOLUME" Left="20" Top="290" Width="250" Height="8" ImageWidth="188" ImageHeight="8" ThumbWidth="14" ThumbHeight="8" ImageLeft="318" ImageTop="263" BackImageLeft="318" BackImageTop="285" ThumbImageLeft="517" ThumbImageTop="262" LeftMargin="5" RightMargin="5" Cursor="Hand" />
+
+					<Label CmdID="CMD_WAVE_VOLUME_MESSAGE" Left="20" Top="320" Width="66" Height="24" FontName="#DEFAULT_UI_FONT" FontSize="13" FontBold="1" Text="$CONTROL_AUDIO_WAVE_VOLUME" ColorX="321" ColorY="381" AutoSize="1" />
+					<Slider CmdID="CMD_WAVE_VOLUME" Left="20" Top="350" Width="250" Height="8" ImageWidth="188" ImageHeight="8" ThumbWidth="14" ThumbHeight="8" ImageLeft="318" ImageTop="263" BackImageLeft="318" BackImageTop="285" ThumbImageLeft="517" ThumbImageTop="262" LeftMargin="5" RightMargin="5" Cursor="Hand" />
+
+				</Static>
+
+			</Static>
+		</Control>
+	</ControlBoxSkinArea>
+#else
+<!-- 控制面板 Begin -->
+<ControlBoxSkinArea Image="Control.png" AlphaMode="1" Width="400" Height="280" UseWindowFrame="0" >
+	<Control>
+		<Static Align="Top" Width="400" Height="280" ImageWidth="400" ImageHeight="100" LeftMargin="200" RightMargin="200" TopMargin="48" BottomMargin="2" UsingRgn="1" >
+			<!-- 标题 Begin -->
+			<Label Text="$CONTROL_BOX_TITLE" Left="54" Top="9" Width="160" Height="32" FontName="#DEFAULT_UI_FONT" FontSize="16" FontBold="1" ColorX="24" ColorY="12" VertAlignment="1" />
+			<Button Tooltip="$CMD_CLOSE_WINDOW" CmdID="ID_CONTROL_BOX_WINDOW" Left="-30" Top="6" Width="21" Height="21" ImageLeft="626" ImageTop="53" />
+			<Button CmdID="CMD_TOPMOST_WINDOW" AutoVisible="-1" Left="-56" Top="6" Width="21" Height="15" ImageLeft="0" ImageTop="246" />
+			<Button CmdID="CMD_TOPMOST_WINDOW" AutoVisible="1" Left="-56" Top="6" Width="21" Height="15" ImageLeft="84" ImageTop="246" />
+			<Slider Tooltip="$ZUNE_TRANS" CmdID="CMD_TRANS_CB" AltCmdID="CMD_POPUPMENU_SKIN_TRANS_CB" Left="-116" Top="9" Width="50" Height="9"
+				ImageLeft="744" ImageTop="25" ImageWidth="18" ImageHeight="9"
+				BackImageLeft="744" BackImageTop="35"
+				ThumbWidth="5" ThumbHeight="9" ThumbImageLeft="705" ThumbImageTop="25"
+				LeftMargin="3" RightMargin="3" Cursor="Hand"
+			/>
+			<!-- 标题 End -->
+
+			<!-- 切换页面按钮 Begin -->
+			<Static Top="48" Width="96" Height="232" ImageTop="48" ImageWidth="60" ImageHeight="52" LeftMargin="2" RightMargin="2" TopMargin="2" BottomMargin="2" >
+				<Button CmdID="CMD_SELECT_PAGE" PageIndex="0" Align="Top" Width="96" Height="30" ImageTop="120">
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="14" Text="$CONTROL_VIDEO" HoriAlignment="1" VertAlignment="1" TextColor="0xEEEEEE" />
+				</Button>
+				<Button CmdID="CMD_SELECT_PAGE" PageIndex="1" Align="Top" Width="96" Height="30" ImageTop="120">
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="14" Text="$CONTROL_AUDIO" HoriAlignment="1" VertAlignment="1" TextColor="0xEEEEEE" />
+				</Button>
+				<Button CmdID="CMD_SELECT_PAGE" PageIndex="2" Align="Top" Width="96" Height="30" ImageTop="120">
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="14" Text="$CONTROL_PLAYBACK" HoriAlignment="1" VertAlignment="1" TextColor="0xEEEEEE" />
+				</Button>
+				<Button CmdID="CMD_SELECT_PAGE" PageIndex="3" Align="Top" Width="96" Height="30" ImageTop="120">
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="14" Text="$CONTROL_SUBTITLE" HoriAlignment="1" VertAlignment="1" TextColor="0xEEEEEE" />
+				</Button>
+				<Button CmdID="CMD_SELECT_PAGE" PageIndex="4" Align="Top" Width="96" Height="30" ImageTop="120">
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="14" Text="$ZUNE_VIDEO_PROCESS" HoriAlignment="1" VertAlignment="1" TextColor="0xEEEEEE" />
+				</Button>
+
+				<Button Tooltip="$ZUNE_AUDIO_CAPTURE" CmdID="ID_AUDIO_CAPTURE" AltCmdID="CMD_POPUPMENU_AUDIO_CAPTURE" Left="16" Top="166" Width="32" Height="24" ImageLeft="680" ImageTop="320" />
+				<Image Left="20" Top="166" ImageLeft="750" ImageTop="106" ImageWidth="24" ImageHeight="24" />
+				<Button Tooltip="$ZUNE_SAVE_MOVIE" CmdID="ID_SAVE_MOVIE" Left="48" Top="166" Width="32" Height="24" ImageLeft="680" ImageTop="320" />
+				<Image Left="52" Top="166" ImageLeft="726" ImageTop="106" ImageWidth="24" ImageHeight="24" />
+				<Button Tooltip="$ZUNE_3D_MENU" CmdID="ID_VIDEO_3D_MENU" AltCmdID="ID_VIDEO_3D_MENU" Left="16" Top="195" Width="32" Height="24" ImageLeft="680" ImageTop="320" />
+				<Image Left="20" Top="195" ImageLeft="678" ImageTop="106" ImageWidth="24" ImageHeight="24" />
+				<Button Tooltip="$ZUNE_OSD_INFO" CmdID="ID_PLAYINFO_OSD" AltCmdID="ID_PLAYINFO_OSD" Left="48" Top="195" Width="32" Height="24" ImageLeft="680" ImageTop="320" />
+				<Image Left="52" Top="195" ImageLeft="654" ImageTop="106" ImageWidth="24" ImageHeight="24" />
+			</Static>
+			<!-- 切换页面按钮 End -->
+
+			<!-- 视频页面 Begin -->
+			<Static State="CMD_PAGE_CONTROL" PageIndex="0" Left="96" Top="56" Width="-8" Height="-8" ImageLeft="120" ImageTop="48" ImageWidth="126" ImageHeight="50" LeftMargin="2" RightMargin="2" TopMargin="2" BottomMargin="2" >
+				<!-- 画面属性 Begin -->
+				<Label CmdID="CMD_COLOR_OFFSET_MESSAGE" Text="$CONTROL_BRIGHTNESS" Left="10" Width="90" Height="20" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" />
+				<Slider CmdID="CMD_COLOR_OFFSET" Left="24" Top="21" Width="190" Height="16"
+					ImageLeft="423" ImageTop="23" ImageWidth="190" ImageHeight="16"
+					BackImageLeft="423" BackImageTop="23"
+					ThumbImageLeft="630" ThumbImageTop="3" ThumbWidth="12" ThumbHeight="16"
+					LeftMargin="0" RightMargin="0" Cursor="Hand"
+				/>
+				<Image Left="119" Top="39" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+				<Button CmdID="CMD_COLOR_OFFSET_DEFAULT" Left="234" Top="16" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="$CONTROL_VIDEO_DEFAULT" FontName="#DEFAULT_UI_FONT" FontSize="12" HoriAlignment="1" VertAlignment="1" TextColor="0xDDDDDD" />
+				</Button>
+
+				<Label CmdID="CMD_COLOR_GAIN_MESSAGE" Text="$CONTROL_CONTRAST" Left="10" Top="45" Width="90" Height="20" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" />
+				<Slider CmdID="CMD_COLOR_GAIN" Left="24" Top="66" Width="190" Height="16"
+					ImageLeft="423" ImageTop="23" ImageWidth="190" ImageHeight="16"
+					BackImageLeft="423" BackImageTop="23"
+					ThumbImageLeft="630" ThumbImageTop="3" ThumbWidth="12" ThumbHeight="16"
+					LeftMargin="0" RightMargin="0" Cursor="Hand"
+				/>
+				<Image Left="119" Top="84" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+				<Button CmdID="CMD_COLOR_GAIN_DEFAULT" Left="234" Top="61" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="$CONTROL_VIDEO_DEFAULT" FontName="#DEFAULT_UI_FONT" FontSize="12" HoriAlignment="1" VertAlignment="1" TextColor="0xDDDDDD" />
+				</Button>
+
+				<Label CmdID="CMD_COLOR_SAT_MESSAGE" Text="$CONTROL_SATURATION" Left="10" Top="90" Width="90" Height="20" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" />
+				<Slider CmdID="CMD_COLOR_SAT" Left="24" Top="111" Width="190" Height="16"
+					ImageLeft="423" ImageTop="44" ImageWidth="190" ImageHeight="16"
+					BackImageLeft="423" BackImageTop="44"
+					ThumbImageLeft="630" ThumbImageTop="3" ThumbWidth="12" ThumbHeight="16"
+					LeftMargin="0" RightMargin="0" Cursor="Hand"
+				/>
+				<Image Left="119" Top="129" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+				<Button CmdID="CMD_COLOR_SAT_DEFAULT" Left="234" Top="106" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="$CONTROL_VIDEO_DEFAULT" FontName="#DEFAULT_UI_FONT" FontSize="12" HoriAlignment="1" VertAlignment="1" TextColor="0xDDDDDD" />
+				</Button>
+
+				<Label CmdID="CMD_COLOR_HUE_MESSAGE" Text="$CONTROL_COLOR" Left="10" Top="135" Width="90" Height="20" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" />
+				<Slider CmdID="CMD_COLOR_HUE" Left="24" Top="156" Width="190" Height="16"
+					ImageLeft="423" ImageTop="65" ImageWidth="190" ImageHeight="16"
+					BackImageLeft="423" BackImageTop="65"
+					ThumbImageLeft="630" ThumbImageTop="3" ThumbWidth="12" ThumbHeight="16"
+					LeftMargin="0" RightMargin="0" Cursor="Hand"
+				/>
+				<Image Left="119" Top="174" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+				<Button CmdID="CMD_COLOR_HUE_DEFAULT" Left="234" Top="151" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="$CONTROL_VIDEO_DEFAULT" FontName="#DEFAULT_UI_FONT" FontSize="12" HoriAlignment="1" VertAlignment="1" TextColor="0xDDDDDD" />
+				</Button>
+				<!-- 画面属性 End -->
+
+				<!-- 视频其它 Begin -->
+				<Button CmdID="ID_VIDEO_BLUR" DownFlag="1" Left="10" Top="190" Width="50" Height="18" ImageTop="200" Cursor="Hand" >
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="12" Text="$CONTROL_SOFTEN" VertAlignment="1" TextColor="0xBBBBBB" OffsetLeft="14" />
+				</Button>
+				<Button CmdID="ID_VIDEO_SHARPEN" DownFlag="1" Left="80" Top="190" Width="40" Height="18" ImageLeft="200" ImageTop="200" Cursor="Hand" >
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="12" Text="$CONTROL_SHARPEN" VertAlignment="1" TextColor="0xBBBBBB" OffsetLeft="14" />
+				</Button>
+				<Button CmdID="ID_VIDEO_POSTPROC" DownFlag="1" Left="145" Top="190" Width="60" Height="18" ImageLeft="360" ImageTop="200" Cursor="Hand" >
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="12" Text="$CONTROL_DEBLOCK" VertAlignment="1" TextColor="0xBBBBBB" OffsetLeft="14" />
+				</Button>
+				<Button CmdID="ID_VIDEO_DENOISE_D" DownFlag="1" Left="224" Top="190" Width="60" Height="18" ImageLeft="360" ImageTop="200" Cursor="Hand" >
+					<Label Text="$ZUNE_VIDEO_DENOISE_D" FontName="#DEFAULT_UI_FONT" FontSize="12" VertAlignment="1" TextColor="0xBBBBBB" OffsetLeft="14" />
+				</Button>
+				<!-- 视频其它 End -->
+			</Static>
+			<!-- 视频页面 End -->
+
+			<!-- 音频页面 Begin -->
+			<Static State="CMD_PAGE_CONTROL" PageIndex="1" Left="96" Top="56" Width="-8" Height="-8" ImageLeft="120" ImageTop="48" ImageWidth="126" ImageHeight="50" LeftMargin="2" RightMargin="2" TopMargin="2" BottomMargin="2" >
+				<!-- 音量 Begin -->
+				<Label Text="$ZUNE_MASTER_VOLUME" Left="10" Width="54" Height="20" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" />
+				<Image Left="64" Top="8" Width="219" Height="1" ImageLeft="720" ImageTop="3" ImageWidth="20" ImageHeight="1" LeftMargin="1" RightMargin="1" />
+				<Slider CmdID="CMD_MASTER_VOLUME" Left="54" Top="26" Width="142" Height="13"
+					ImageLeft="677" ImageTop="24" ImageWidth="18" ImageHeight="13"
+					BackImageLeft="744" BackImageTop="24" LeftMargin="3" RightMargin="3"
+					ThumbImageLeft="630" ThumbImageTop="4" ThumbWidth="12" ThumbHeight="10"
+					Cursor="Hand"
+				/>
+				<Label CmdID="CMD_MASTER_VOLUME_MESSAGE" Left="25" Top="24" Width="18" Height="12" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" HoriAlignment="1" />
+				<!-- 音量 End -->
+
+				<!-- 音轨 Begin -->
+				<Button CmdID="CMD_POPUPMENU_AUDIO_LANG" Left="210" Top="20" Width="72" Height="24" ImageTop="160" >
+					<Label Text="$CONTROL_AUDIO_SEL" FontName="#DEFAULT_UI_FONT" FontSize="12" HoriAlignment="1" VertAlignment="1" TextColor="0xDDDDDD" />
+				</Button>
+				<!-- 音轨 End -->
+
+				<!-- 均衡器 Begin -->
+				<Label Text="$CONTROL_EQUALIZER" Left="10" Top="55" Width="54" Height="20" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" />
+				<Image Left="64" Top="63" Width="219" Height="1" ImageLeft="720" ImageTop="3" ImageWidth="20" ImageHeight="1" LeftMargin="1" RightMargin="1" />
+
+				<Button CmdID="ID_AUDIO_EQULIZER" DownFlag="1" Left="24" Top="78" Width="50" Height="18" ImageTop="200" Cursor="Hand" >
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="12" Text="$CONTROL_EQUALIZER" VertAlignment="1" TextColor="0xBBBBBB" OffsetLeft="14" />
+				</Button>
+				<Button CmdID="CMD_POPUPMENU_AUDIO_EQULIZER" Left="94" Top="75" Width="115" Height="24" ImageTop="220" ImageWidth="115" />
+				<Label CmdID="CMD_EQ_PRESET_MESSAGE" Left="100" Top="75" Width="90" Height="24" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xEEEEEE" VertAlignment="1" />
+				<Button CmdID="CMD_POPUPMENU_EQULIZER_PRESET" Left="234" Top="75" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label FontName="#DEFAULT_UI_FONT" FontSize="12" Text="$CONTROL_PRESET" HoriAlignment="1" VertAlignment="1" TextColor="0xDDDDDD" />
+				</Button>
+
+				<!-- 均衡器音量 Begin -->
+				<Static Top="105" Width="300" Height="120" ImageLeft="120" ImageTop="48" ImageWidth="126" ImageHeight="50" LeftMargin="2" RightMargin="2" TopMargin="2" BottomMargin="2">
+					<Label Text="60" Left="30" Top="10" Width="20" Height="10" FontName="Tahoma" FontSize="9" FontBold="0" TextColor="0xBBBBBB" HoriAlignment="1" />
+					<Label Text="170" Left="55" Top="10" Width="20" Height="10" FontName="Tahoma" FontSize="9" FontBold="0" TextColor="0xBBBBBB" HoriAlignment="1" />
+					<Label Text="310" Left="80" Top="10" Width="20" Height="10" FontName="Tahoma" FontSize="9" FontBold="0" TextColor="0xBBBBBB" HoriAlignment="1" />
+					<Label Text="600" Left="105" Top="10" Width="20" Height="10" FontName="Tahoma" FontSize="9" FontBold="0" TextColor="0xBBBBBB" HoriAlignment="1" />
+					<Label Text="1k" Left="130" Top="10" Width="20" Height="10" FontName="Tahoma" FontSize="9" FontBold="0" TextColor="0xBBBBBB" HoriAlignment="1" />
+					<Label Text="3k" Left="155" Top="10" Width="20" Height="10" FontName="Tahoma" FontSize="9" FontBold="0" TextColor="0xBBBBBB" HoriAlignment="1" />
+					<Label Text="6k" Left="180" Top="10" Width="20" Height="10" FontName="Tahoma" FontSize="9" FontBold="0" TextColor="0xBBBBBB" HoriAlignment="1" />
+					<Label Text="12k" Left="205" Top="10" Width="20" Height="10" FontName="Tahoma" FontSize="9" FontBold="0" TextColor="0xBBBBBB" HoriAlignment="1" />
+					<Label Text="14k" Left="230" Top="10" Width="20" Height="10" FontName="Tahoma" FontSize="9" FontBold="0" TextColor="0xBBBBBB" HoriAlignment="1" />
+					<Label Text="16k" Left="255" Top="10" Width="20" Height="10" FontName="Tahoma" FontSize="9" FontBold="0" TextColor="0xBBBBBB" HoriAlignment="1" />
+
+					<!-- 平衡位置标志 -->
+					<Image Left="25" Top="64" Width="6" Height="2" ImageLeft="778" ImageTop="3" ImageWidth="6" ImageHeight="2" />
+					<Image Left="50" Top="64" Width="6" Height="2" ImageLeft="778" ImageTop="3" ImageWidth="6" ImageHeight="2" />
+					<Image Left="75" Top="64" Width="6" Height="2" ImageLeft="778" ImageTop="3" ImageWidth="6" ImageHeight="2" />
+					<Image Left="100" Top="64" Width="6" Height="2" ImageLeft="778" ImageTop="3" ImageWidth="6" ImageHeight="2" />
+					<Image Left="125" Top="64" Width="6" Height="2" ImageLeft="778" ImageTop="3" ImageWidth="6" ImageHeight="2" />
+					<Image Left="150" Top="64" Width="6" Height="2" ImageLeft="778" ImageTop="3" ImageWidth="6" ImageHeight="2" />
+					<Image Left="175" Top="64" Width="6" Height="2" ImageLeft="778" ImageTop="3" ImageWidth="6" ImageHeight="2" />
+					<Image Left="200" Top="64" Width="6" Height="2" ImageLeft="778" ImageTop="3" ImageWidth="6" ImageHeight="2" />
+					<Image Left="225" Top="64" Width="6" Height="2" ImageLeft="778" ImageTop="3" ImageWidth="6" ImageHeight="2" />
+					<Image Left="250" Top="64" Width="6" Height="2" ImageLeft="778" ImageTop="3" ImageWidth="6" ImageHeight="2" />
+					<Image Left="275" Top="64" Width="6" Height="2" ImageLeft="778" ImageTop="3" ImageWidth="6" ImageHeight="2" />
+
+					<Slider CmdID="CMD_EQULIZER_0" Vert="1" Left="34" Top="28" Width="14" Height="73"
+						ImageLeft="767" ImageTop="12" ImageWidth="14" ImageHeight="73"
+						BackImageLeft="782" BackImageTop="12"
+						ThumbImageLeft="630" ThumbImageTop="4" ThumbWidth="12" ThumbHeight="10"
+						TopMargin="0" BottomMargin="5" Cursor="Hand"
+					/>
+					<Slider CmdID="CMD_EQULIZER_1" Vert="1" Left="59" Top="28" Width="14" Height="73"
+						ImageLeft="767" ImageTop="12" ImageWidth="14" ImageHeight="73"
+						BackImageLeft="782" BackImageTop="12"
+						ThumbImageLeft="630" ThumbImageTop="4" ThumbWidth="12" ThumbHeight="10"
+						TopMargin="0" BottomMargin="5" Cursor="Hand"
+					/>
+					<Slider CmdID="CMD_EQULIZER_2" Vert="1" Left="84" Top="28" Width="14" Height="73"
+						ImageLeft="767" ImageTop="12" ImageWidth="14" ImageHeight="73"
+						BackImageLeft="782" BackImageTop="12"
+						ThumbImageLeft="630" ThumbImageTop="4" ThumbWidth="12" ThumbHeight="10"
+						TopMargin="0" BottomMargin="5" Cursor="Hand"
+					/>
+					<Slider CmdID="CMD_EQULIZER_3" Vert="1" Left="109" Top="28" Width="14" Height="73"
+						ImageLeft="767" ImageTop="12" ImageWidth="14" ImageHeight="73"
+						BackImageLeft="782" BackImageTop="12"
+						ThumbImageLeft="630" ThumbImageTop="4" ThumbWidth="12" ThumbHeight="10"
+						TopMargin="0" BottomMargin="5" Cursor="Hand"
+					/>
+					<Slider CmdID="CMD_EQULIZER_4" Vert="1" Left="134" Top="28" Width="14" Height="73"
+						ImageLeft="767" ImageTop="12" ImageWidth="14" ImageHeight="73"
+						BackImageLeft="782" BackImageTop="12"
+						ThumbImageLeft="630" ThumbImageTop="4" ThumbWidth="12" ThumbHeight="10"
+						TopMargin="0" BottomMargin="5" Cursor="Hand"
+					/>
+					<Slider CmdID="CMD_EQULIZER_5" Vert="1" Left="159" Top="28" Width="14" Height="73"
+						ImageLeft="767" ImageTop="12" ImageWidth="14" ImageHeight="73"
+						BackImageLeft="782" BackImageTop="12"
+						ThumbImageLeft="630" ThumbImageTop="4" ThumbWidth="12" ThumbHeight="10"
+						TopMargin="0" BottomMargin="5" Cursor="Hand"
+					/>
+					<Slider CmdID="CMD_EQULIZER_6" Vert="1" Left="184" Top="28" Width="14" Height="73"
+						ImageLeft="767" ImageTop="12" ImageWidth="14" ImageHeight="73"
+						BackImageLeft="782" BackImageTop="12"
+						ThumbImageLeft="630" ThumbImageTop="4" ThumbWidth="12" ThumbHeight="10"
+						TopMargin="0" BottomMargin="5" Cursor="Hand"
+					/>
+					<Slider CmdID="CMD_EQULIZER_7" Vert="1" Left="209" Top="28" Width="14" Height="73"
+						ImageLeft="767" ImageTop="12" ImageWidth="14" ImageHeight="73"
+						BackImageLeft="782" BackImageTop="12"
+						ThumbImageLeft="630" ThumbImageTop="4" ThumbWidth="12" ThumbHeight="10"
+						TopMargin="0" BottomMargin="5" Cursor="Hand"
+					/>
+					<Slider CmdID="CMD_EQULIZER_8" Vert="1" Left="234" Top="28" Width="14" Height="73"
+						ImageLeft="767" ImageTop="12" ImageWidth="14" ImageHeight="73"
+						BackImageLeft="782" BackImageTop="12"
+						ThumbImageLeft="630" ThumbImageTop="4" ThumbWidth="12" ThumbHeight="10"
+						TopMargin="0" BottomMargin="5" Cursor="Hand"
+					/>
+					<Slider CmdID="CMD_EQULIZER_9" Vert="1" Left="259" Top="28" Width="14" Height="73"
+						ImageLeft="767" ImageTop="12" ImageWidth="14" ImageHeight="73"
+						BackImageLeft="782" BackImageTop="12"
+						ThumbImageLeft="630" ThumbImageTop="4" ThumbWidth="12" ThumbHeight="10"
+						TopMargin="0" BottomMargin="5" Cursor="Hand"
+					/>
+				</Static>
+				<!-- 均衡器音量 End -->
+				<!-- 均衡器 End -->
+			</Static>
+			<!-- 音频页面 End -->
+
+			<!-- 播放 Begin -->
+			<Static State="CMD_PAGE_CONTROL" PageIndex="2" Left="96" Top="56" Width="-8" Height="-8" ImageLeft="120" ImageTop="48" ImageWidth="126" ImageHeight="50" LeftMargin="2" RightMargin="2" TopMargin="2" BottomMargin="2" >
+				<Label Text="$CONTROL_PLAYBACK_SPEED" Left="10" Width="54" Height="20" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" />
+				<Image Left="64" Top="8" Width="219" Height="1" ImageLeft="720" ImageTop="3" ImageWidth="20" ImageHeight="1" LeftMargin="1" RightMargin="1" />
+
+				<!-- 播放速度 Begin -->
+				<Static Left="12" Top="20" Width="300" Height="40" ImageLeft="120" ImageTop="48" ImageWidth="126" ImageHeight="50" LeftMargin="2" RightMargin="2" TopMargin="2" BottomMargin="2">
+					<Button Tooltip="$CONTROL_PLAYBACK_SLOWER" CmdID="ID_PLAY_SPEED_SLOWER" AltCmdID="ID_PLAY_SPEED_NORMAL" Left="12" Top="5" Width="10" Height="9" ImageLeft="631" ImageTop="73" />
+					<Slider Tooltip="$ZUNE_SPEED_CTRL" CmdID="CMD_SPEED_CTRL" AltCmdID="ID_PLAY_SPEED_NORMAL" Left="24" Top="6" Width="234" Height="15"
+						ImageLeft="677" ImageTop="38" ImageWidth="18" ImageHeight="12"
+						BackImageLeft="677" BackImageTop="38"
+						ThumbImageLeft="705" ThumbImageTop="36" ThumbWidth="7" ThumbHeight="12"
+						LeftMargin="4" RightMargin="4" Cursor="Hand"
+					/>
+					<Button Tooltip="$CONTROL_PLAYBACK_FASTER" CmdID="ID_PLAY_SPEED_FASTER" AltCmdID="ID_PLAY_SPEED_NORMAL" Left="260" Top="5" Width="10" Height="9" ImageLeft="671" ImageTop="73" />
+					<Image Left="27" Top="19" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Label Text="0.2" Left="18" Top="22" Width="54" Height="20" FontName="Tahoma" FontSize="11" FontBold="0" TextColor="0xBBBBBB" />
+					<Image Left="42" Top="19" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Button Tooltip="$CONTROL_PLAYBACK_DEFAULT" CmdID="ID_PLAY_SPEED_NORMAL" Left="38" Top="22" Width="10" Height="12" ImageLeft="60" ImageTop="48" Cursor="Hand" >
+						<Label Text="1" FontSize="11" FontBold="1" FontName="Tahoma" TextColor="0xD6763C" OffsetLeft="2" />
+					</Button>
+					<Image Left="62" Top="19" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Label Text="2" Left="60" Top="22" Width="54" Height="20" FontName="Tahoma" FontSize="11" FontBold="0" TextColor="0xBBBBBB" />
+					<Image Left="81" Top="19" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Label Text="3" Left="79" Top="22" Width="54" Height="20" FontName="Tahoma" FontSize="11" FontBold="0" TextColor="0xBBBBBB" />
+					<Image Left="100" Top="19" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Label Text="4" Left="98" Top="22" Width="54" Height="20" FontName="Tahoma" FontSize="11" FontBold="0" TextColor="0xBBBBBB" />
+					<Image Left="119" Top="19" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Label Text="5" Left="117" Top="22" Width="54" Height="20" FontName="Tahoma" FontSize="11" FontBold="0" TextColor="0xBBBBBB" />
+					<Image Left="139" Top="19" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Label Text="6" Left="137" Top="22" Width="54" Height="20" FontName="Tahoma" FontSize="11" FontBold="0" TextColor="0xBBBBBB" />
+					<Image Left="158" Top="19" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Label Text="7" Left="156" Top="22" Width="54" Height="20" FontName="Tahoma" FontSize="11" FontBold="0" TextColor="0xBBBBBB" />
+					<Image Left="177" Top="19" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Label Text="8" Left="175" Top="22" Width="54" Height="20" FontName="Tahoma" FontSize="11" FontBold="0" TextColor="0xBBBBBB" />
+					<Image Left="196" Top="19" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Label Text="9" Left="194" Top="22" Width="54" Height="20" FontName="Tahoma" FontSize="11" FontBold="0" TextColor="0xBBBBBB" />
+					<Image Left="216" Top="19" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Label Text="10" Left="212" Top="22" Width="54" Height="20" FontName="Tahoma" FontSize="11" FontBold="0" TextColor="0xBBBBBB" />
+					<Image Left="235" Top="19" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Label Text="11" Left="231" Top="22" Width="54" Height="20" FontName="Tahoma" FontSize="11" FontBold="0" TextColor="0xBBBBBB" />
+					<Image Left="254" Top="19" Width="1" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Label Text="12" Left="250" Top="22" Width="54" Height="20" FontName="Tahoma" FontSize="11" FontBold="0" TextColor="0xBBBBBB" />
+				</Static>
+				<!-- 播放速度 End -->
+
+				<!-- 播放控制 Begin -->
+				<Static Top="72" Width="300" Height="150" ImageLeft="120" ImageTop="48" ImageWidth="126" ImageHeight="50" LeftMargin="2" RightMargin="2" TopMargin="2" BottomMargin="2">
+					<Label Text="$ZUNE_PLAY_CTRL" Left="10" Width="54" Height="20" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" />
+					<Image Left="64" Top="7" Width="219" Height="1" ImageLeft="720" ImageTop="3" ImageWidth="20" ImageHeight="1" LeftMargin="1" RightMargin="1" />
+
+					<!-- 书签 Begin -->
+					<Button Tooltip="$ZUNE_BOOKMARK_ADD_PREV" CmdID="ID_BOOKMARK_ADD" AltCmdID="ID_BOOKMARK_PREV" Left="24" Top="25" Width="10" Height="10" ImageLeft="631" ImageTop="91" />
+					<Slider CmdID="CMD_TIMEBAR_CTRL" Left="37" Top="22" Width="232" Height="16"
+						ImageLeft="677" ImageTop="22" ImageWidth="18" ImageHeight="9"
+						AltImageLeft="677" AltImageTop="22"
+						BackImageLeft="677" BackImageTop="22"
+						ThumbImageLeft="630" ThumbImageTop="2" ThumbWidth="12" ThumbHeight="13"
+						RepeatImageWidth="5" RepeatImageHeight="14"
+						RepeatAImageLeft="730" RepeatAImageTop="50" RepeatBImageLeft="736" RepeatBImageTop="50"
+						BookmarkImageLeft="742" BookmarkImageTop="50"
+						LeftMargin="3" RightMargin="3" Cursor="Hand"
+					/>
+					<Button Tooltip="$ZUNE_BOOKMARK_DEL_NEXT" CmdID="ID_BOOKMARK_CLEAR" AltCmdID="ID_BOOKMARK_NEXT" Left="273" Top="25" Width="10" Height="10" ImageLeft="661" ImageTop="91" />
+					<Image Left="99" Top="36" Width="2" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Image Left="153" Top="36" Width="2" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Image Left="209" Top="36" Width="2" Height="3" ImageLeft="634" ImageTop="31" ImageWidth="2" ImageHeight="3" />
+					<Static State="CMD_ON_MEDIA_PLAY" Left="38" Top="45" Width="234" Height="18" ImageLeft="60" ImageTop="48" ImageWidth="50" ImageHeight="16" LeftMargin="2" RightMargin="2" >
+						<Label CmdID="CMD_CURRENTTIME_MESSAGE" Align="Left" Width="48" Height="14" FontName="Tahoma" FontSize="11" TextColor="0xBBBBBB" />
+						<Label CmdID="CMD_PERCENTTIME_MESSAGE" Left="3" Width="30" Height="14" FontName="Tahoma" FontSize="11" TextColor="0xBBBBBB" HoriCenter="1" HoriAlignment="1" />
+						<Label CmdID="CMD_TOTALTIME_MESSAGE" Align="Right" Width="48" Height="14" FontName="Tahoma" FontSize="11" TextColor="0xBBBBBB" />
+					</Static>
+					<!-- 书签 End -->
+
+					<!-- 播放栏 Begin -->
+					<Static Width="243" Height="33" Left="31" Top="68" ImageLeft="700" ImageTop="155" ImageWidth="100" ImageHeight="33" LeftMargin="34" RightMargin="34" >
+						<Button Tooltip="$ZUNE_BOOKMARK_EDIT" CmdID="ID_BOOKMARK_EDIT" Width="25" Height="25" Left="4" VertCenter="1" ImageLeft="600" ImageTop="155" >
+							<Image ImageLeft="575" ImageTop="130" ImageWidth="25" ImageHeight="25" />
+						</Button>
+						<Button Tooltip="$ZUNE_PLAYBACK2" CmdID="ID_PLAYBACK_30SEC_BACK" AltCmdID="ID_PLAYBACK_1MIN_BACK" Width="25" Height="25" Left="34" VertCenter="1" ImageLeft="600" ImageTop="155" >
+							<Image ImageLeft="700" ImageTop="130" ImageWidth="25" ImageHeight="25" />
+						</Button>
+						<Button Tooltip="$ZUNE_PLAYBACK" CmdID="ID_PLAYBACK_5SEC_BACK" AltCmdID="ID_PROCESS_PREV" Left="64" Width="25" Height="25" VertCenter="1" ImageLeft="600" ImageTop="155" >
+							<Image ImageLeft="650" ImageTop="130" ImageWidth="25" ImageHeight="25" />
+						</Button>
+						<Button Tooltip="$ZUNE_PLAY" CmdID="CMD_MEDIA_PLAY" AltCmdID="CMD_MEDIA_CLOSE" Left="94" Width="25" Height="25" VertCenter="1" ImageLeft="600" ImageTop="155" >
+							<Image ImageLeft="600" ImageTop="130" ImageWidth="25" ImageHeight="25" />
+						</Button>
+						<Button Tooltip="$ZUNE_PAUSE" CmdID="CMD_MEDIA_PAUSE" AltCmdID="CMD_MEDIA_CLOSE" Left="94" Width="25" Height="25" VertCenter="1" ImageLeft="600" ImageTop="155" >
+							<Image ImageLeft="625" ImageTop="130" ImageWidth="25" ImageHeight="25" />
+						</Button>
+						<Button Tooltip="$ZUNE_PLAYFORW" CmdID="ID_PLAYBACK_5SEC_FORW" AltCmdID="ID_PROCESS_NEXT" Left="124" Width="25" Height="25" VertCenter="1" ImageLeft="600" ImageTop="155" >
+							<Image ImageLeft="675" ImageTop="130" ImageWidth="25" ImageHeight="25" />
+						</Button>
+						<Button Tooltip="$ZUNE_PLAYFORW2" CmdID="ID_PLAYBACK_30SEC_FORW" AltCmdID="ID_PLAYBACK_1MIN_FORW" Left="154" Width="25" Height="25" VertCenter="1" ImageLeft="600" ImageTop="155" >
+							<Image ImageLeft="725" ImageTop="130" ImageWidth="25" ImageHeight="25" />
+						</Button>
+						<Button Tooltip="$ZUNE_REPEAT_MENU" CmdID="ID_PLAYBACK_REPEAT" AltCmdID="CMD_POPUPMENU_PLAY_REPEAT2" Left="184" Width="25" Height="25" VertCenter="1" ImageLeft="600" ImageTop="155" >
+							<Image ImageLeft="750" ImageTop="130" ImageWidth="25" ImageHeight="25" />
+						</Button>
+						<Button Tooltip="$ZUNE_SHUFFLE_VISUAL" CmdID="ID_PLAYBACK_SHUFFLE" AltCmdID="CMD_POPUPMENU_VISUAL" Left="214" Width="25" Height="25" VertCenter="1" ImageLeft="600" ImageTop="155" >
+							<Image ImageLeft="775" ImageTop="130" ImageWidth="25" ImageHeight="25" />
+						</Button>
+					</Static>
+					<!-- 播放栏 End -->
+
+					<!-- 区段循环 Begin -->
+					<Image Left="24" Top="112" Width="60" Height="24" ImageTop="160" ImageWidth="96" ImageHeight="24" />
+					<Label CmdID="CMD_REPEAT_START_MESSAGE" Left="26" Top="112" Width="57" Height="24" FontName="Tahoma" FontSize="11" TextColor="0xBBBBBB" VertAlignment="1" HoriAlignment="1" />
+					<Button Tooltip="$ZUNE_START_SET_RESET" CmdID="ID_PLAY_REPEAT_START_SET" AltCmdID="ID_PLAY_REPEAT_START_RESET" Left="85" Top="112" Width="35" Height="24" ImageLeft="432" ImageTop="320" >
+						<Label Text="$ZUNE_START" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+					<Image Left="129" Top="112" Width="60" Height="24" ImageTop="160" ImageWidth="96" ImageHeight="24" />
+					<Label CmdID="CMD_REPEAT_END_MESSAGE" Left="134" Top="112" Width="57" Height="24" FontName="Tahoma" FontSize="11" TextColor="0xBBBBBB" VertAlignment="1" HoriAlignment="1" />
+					<Button Tooltip="$ZUNE_STOP_SET_RESET" CmdID="ID_PLAY_REPEAT_STOP_SET" AltCmdID="ID_PLAY_REPEAT_STOP_RESET" Left="190" Top="112" Width="35" Height="24" ImageLeft="432" ImageTop="320" >
+						<Label Text="$ZUNE_STOP" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+					<Button Tooltip="$ID_PLAY_REPEAT_RESET" CmdID="ID_PLAY_REPEAT_RESET" Left="234" Top="112" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+						<Label Text="$ZUNE_RESET" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+					<!-- 区段循环 End -->
+				</Static>
+				<!-- 播放控制 End -->
+			</Static>
+			<!-- 播放 End -->
+
+			<!-- 字幕页面 Begin -->
+			<Static State="CMD_PAGE_CONTROL" PageIndex="3" Left="96" Top="56" Width="-8" Height="-8" ImageLeft="120" ImageTop="48" ImageWidth="126" ImageHeight="50" LeftMargin="2" RightMargin="2" TopMargin="2" BottomMargin="2" >
+
+				<!-- 字幕样式 Begin -->
+				<Label Text="$CONTROL_FONT" Left="10" Width="54" Height="20" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" />
+				<Image Left="64" Top="8" Width="136" Height="1" ImageLeft="720" ImageTop="3" ImageWidth="20" ImageHeight="1" LeftMargin="1" RightMargin="1" />
+
+				<Button CmdID="ID_CAPTION_FONT_SELECT" Left="24" Top="25" Width="115" Height="24" ImageTop="220" />
+				<Label CmdID="CMD_CAPTION_FONT_MESSAGE" Left="30" Top="25" Width="90" Height="24" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" VertAlignment="1" TextColor="0xDDDDDD" />
+				<Image Left="24" Top="58" Width="36" Height="24" ImageTop="160" ImageWidth="36" ImageHeight="24" />
+				<Label CmdID="CMD_CAPTION_SIZE_MESSAGE" Left="24" Top="58" Width="36" Height="24" FontName="Tahoma" FontSize="12" VertAlignment="1" HoriAlignment="1" TextColor="0xDDDDDD" />
+				<Button CmdID="ID_CAPTION_INC_SIZE" Left="61" Top="58" Width="15" Height="12" ImageTop="290" />
+				<Button CmdID="ID_CAPTION_DEC_SIZE" Left="61" Top="70" Width="15" Height="12" ImageTop="302" />
+				<!-- 字幕样式 End -->
+				<Button Tooltip="$ZUNE_ALIGN_LEFT" CmdID="ID_CAPTION_ALIGN_LEFT" Left="24" Top="91" Width="32" Height="21" ImageTop="265" />
+				<Button Tooltip="$ZUNE_ALIGN_CENTER" CmdID="ID_CAPTION_ALIGN_CENTER" Left="66" Top="91" Width="31" Height="21" ImageLeft="256" ImageTop="265" />
+				<Button Tooltip="$ZUNE_ALIGN_RIGHT" CmdID="ID_CAPTION_ALIGN_RIGHT" Left="107" Top="91" Width="32" Height="21" ImageLeft="128" ImageTop="265" />
+
+				<!-- 字幕位移 Begin -->
+				<Label Text="$CONTROL_POSITION" Left="214" Width="50" Height="22" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" HoriAlignment="1" />
+				<Static Left="198" Top="25"  Width="84" Height="84" ImageLeft="120" ImageTop="48" ImageWidth="126" ImageHeight="50" LeftMargin="2" RightMargin="2" TopMargin="2" BottomMargin="2" >
+					<Button Tooltip="$CONTROL_UP" CmdID="ID_CAPTION_MOVE_UP" Left="30" Width="24" Height="24" ImageLeft="572" ImageTop="320" >
+						<Label Text="▲" FontName="#DEFAULT_UI_FONT" FontSize="12" TextColor="0xCCCCCC" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+					<Button Tooltip="$CONTROL_RIGHT" CmdID="ID_CAPTION_MOVE_RIGHT" Left="60" Top="30" Width="24" Height="24" ImageLeft="572" ImageTop="320" >
+						<Label Text="▶" FontName="#DEFAULT_UI_FONT" FontSize="12" TextColor="0xCCCCCC" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+					<Button Tooltip="$CONTROL_DOWN" CmdID="ID_CAPTION_MOVE_DOWN" Left="30" Top="60" Width="24" Height="24" ImageLeft="572" ImageTop="320" >
+						<Label Text="▼" FontName="#DEFAULT_UI_FONT" FontSize="12" TextColor="0xCCCCCC" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+					<Button Tooltip="$CONTROL_LEFT" CmdID="ID_CAPTION_MOVE_LEFT" Top="30" Width="24" Height="24" ImageLeft="572" ImageTop="320" >
+						<Label Text="◀" FontName="#DEFAULT_UI_FONT" FontSize="12" TextColor="0xCCCCCC" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+					<Button Tooltip="$ZUNE_RESET" CmdID="ID_CAPTION_RESET_POS" Left="30" Top="30" Width="24" Height="24" ImageLeft="572" ImageTop="320" >
+						<Label Text="○" FontName="#DEFAULT_UI_FONT" FontSize="14" TextColor="0xCCCCCC" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+				</Static>
+				<!-- 字幕位移 End -->
+
+				<!-- 字幕操作 Begin -->
+				<Label Text="$ZUNE_OPERATION" Left="10" Top="125" Width="54" Height="20" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" />
+				<Image Left="64" Top="133" Width="219" Height="1" ImageLeft="720" ImageTop="3" ImageWidth="20" ImageHeight="1" LeftMargin="1" RightMargin="1" />
+
+				<Button AutoVisible="-1" CmdID="ID_CAPTION_VISIBLE" Left="24" Top="148" Width="72" Height="24" ImageTop="160" >
+					<Label Text="$ZUNE_CAPTION_SHOW" FontName="#DEFAULT_UI_FONT" FontSize="12" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button AutoVisible="1" CmdID="ID_CAPTION_VISIBLE" Left="24" Top="148" Width="72" Height="24" ImageTop="160" >
+					<Label Text="$ZUNE_CAPTION_HIDE" FontName="#DEFAULT_UI_FONT" FontSize="12" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button CmdID="CMD_POPUPMENU_CAPTION_LANG" Left="102" Top="148" Width="72" Height="24" ImageTop="160" >
+					<Label Text="$CONTROL_CAPTION_SEL" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button Tooltip="$ZUNE_CAPTION_EXPLORER" CmdID="ID_CAPTION_EXPLORER" Left="180" Top="148" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="$ZUNE_EXPLORER" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button Tooltip="$ZUNE_CAPTION_OPEN" CmdID="ID_CAPTION_OPEN" Left="234" Top="148" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="$ZUNE_OPEN" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+
+				<Button CmdID="ID_CAPTION_SLOW_SYNC" Left="24" Top="184" Width="72" Height="24" ImageTop="160" >
+					<Label Text="$CONTROL_SUBTITLE_SLOWER" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button CmdID="ID_CAPTION_FAST_SYNC" Left="102" Top="184" Width="72" Height="24" ImageTop="160" >
+					<Label Text="$CONTROL_SUBTITLE_FASTER" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button CmdID="ID_CAPTION_RESET_SYNC" Left="180" Top="184" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="$ZUNE_RESET" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button CmdID="CMD_POPUPMENU_CAPTION_SAVE" Left="234" Top="184" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="$ZUNE_SAVE" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<!-- 字幕操作 End -->
+			</Static>
+			<!-- 字幕页面 End -->
+
+			<!-- 图像页面 Begin -->
+			<Static State="CMD_PAGE_CONTROL" PageIndex="4" Left="96" Top="56" Width="-8" Height="-8" ImageLeft="120" ImageTop="48" ImageWidth="126" ImageHeight="50" LeftMargin="2" RightMargin="2" TopMargin="2" BottomMargin="2" >
+				<Label Text="$ZUNE_SCREENSIZE" Left="10" Width="54" Height="20" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" />
+				<Image Left="64" Top="8" Width="219" Height="1" ImageLeft="720" ImageTop="3" ImageWidth="20" ImageHeight="1" LeftMargin="1" RightMargin="1" />
+
+				<!-- 大小控制 Begin -->
+				<Button Tooltip="$ZUNE_SIZE_2X_FIXED" CmdID="ID_SCREENSIZE_2_0X" AltCmdID="ID_20_FIXED_SIZE" Left="24" Top="25" Width="151" Height="54" ImageTop="350" >
+						<Label Text="2.0" OffsetLeft="128" OffsetTop="5" FontName="Tahoma" FontSize="11" TextColor="0xDDDDDD" />
+					</Button>
+				<Button Tooltip="$ZUNE_SIZE_1_5X_FIXED" CmdID="ID_SCREENSIZE_1_5X" AltCmdID="ID_15_FIXED_SIZE" Left="24" Top="25" Width="120" Height="43" ImageTop="410" >
+						<Label Text="1.5" OffsetLeft="97" OffsetTop="5" FontName="Tahoma" FontSize="11" TextColor="0xDDDDDD" />
+					</Button>
+				<Button Tooltip="$ZUNE_SIZE_1X_FIXED" CmdID="ID_SCREENSIZE_1_0X" AltCmdID="ID_10_FIXED_SIZE" Left="24" Top="25" Width="90" Height="34" ImageLeft="500" ImageTop="410" >
+						<Label Text="1.0" OffsetLeft="67" OffsetTop="5" FontName="Tahoma" FontSize="11" TextColor="0xDDDDDD" />
+					</Button>
+				<Button Tooltip="$ZUNE_SIZE_0_5X_FIXED" CmdID="ID_SCREENSIZE_0_5X" AltCmdID="ID_05_FIXED_SIZE" Left="24" Top="25" Width="60" Height="24" ImageTop="320" >
+						<Label Text="0.5" FontName="Tahoma" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+				<Button Tooltip="$ZUNE_PANSCAN_INCSIZE" CmdID="ID_PANSCAN_INCSIZE" AltCmdID="ID_PANSCAN_INCSIZE" Left="74" Top="85" Width="24" Height="24" ImageLeft="572" ImageTop="320" >
+					<Label Text="+" FontName="Tahoma" FontSize="14" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button Tooltip="$ZUNE_RESET" CmdID="ID_PANSCAN_RESET" Left="49" Top="85" Width="24" Height="24" ImageLeft="572" ImageTop="320" >
+					<Label Text="○" FontName="#DEFAULT_UI_FONT" FontSize="14" TextColor="0xCCCCCC" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button Tooltip="$ZUNE_PANSCAN_DECSIZE" CmdID="ID_PANSCAN_DECSIZE" AltCmdID="ID_PANSCAN_DECSIZE" Left="24" Top="85" Width="24" Height="24" ImageLeft="572" ImageTop="320" >
+					<Label Text="-" FontName="Tahoma" FontSize="14" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<!-- 大小控制 End -->
+
+				<!-- 画面调整 Begin -->
+				<Static Left="198" Top="25"  Width="84" Height="84" ImageLeft="120" ImageTop="48" ImageWidth="126" ImageHeight="50" LeftMargin="2" RightMargin="2" TopMargin="2" BottomMargin="2" >
+					<Button Tooltip="$ZUNE_UP_INCHEIGHT" CmdID="ID_PANSCAN_MOVEUP" AltCmdID="ID_PANSCAN_INCHEIGHT" Left="30" Width="24" Height="24" ImageLeft="572" ImageTop="320" >
+						<Label Text="▲" FontName="#DEFAULT_UI_FONT" FontSize="12" TextColor="0xCCCCCC" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+					<Button Tooltip="$ZUNE_RIGHT_INCWIDTH" CmdID="ID_PANSCAN_MOVERIGHT" AltCmdID="ID_PANSCAN_INCWIDTH" Left="60" Top="30" Width="24" Height="24" ImageLeft="572" ImageTop="320" >
+						<Label Text="▶" FontName="#DEFAULT_UI_FONT" FontSize="12" TextColor="0xCCCCCC" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+					<Button Tooltip="$ZUNE_DOWN_DECHEIGHT" CmdID="ID_PANSCAN_MOVEDOWN" AltCmdID="ID_PANSCAN_DECHEIGHT" Left="30" Top="60" Width="24" Height="24" ImageLeft="572" ImageTop="320" >
+						<Label Text="▼" FontName="#DEFAULT_UI_FONT" FontSize="12" TextColor="0xCCCCCC" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+					<Button Tooltip="$ZUNE_LEFT_DECWIDTH" CmdID="ID_PANSCAN_MOVELEFT" AltCmdID="ID_PANSCAN_DECWIDTH" Top="30" Width="24" Height="24" ImageLeft="572" ImageTop="320" >
+						<Label Text="◀" FontName="#DEFAULT_UI_FONT" FontSize="12" TextColor="0xCCCCCC" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+					<Button Tooltip="$ZUNE_CENTER_RESET" CmdID="ID_PANSCAN_CENTER" AltCmdID="ID_PANSCAN_RESET" Left="30" Top="30" Width="24" Height="24" ImageLeft="572" ImageTop="320" >
+						<Label Text="○" FontName="#DEFAULT_UI_FONT" FontSize="14" TextColor="0xCCCCCC" VertAlignment="1" HoriAlignment="1" />
+					</Button>
+				</Static>
+				<!-- 画面调整 End -->
+				<!-- 屏幕比例 Begin -->
+				<Label Text="$CONTROL_VIDEO_RATIO" Left="10" Top="125" Width="54" Height="22" FontName="#DEFAULT_UI_FONT" FontSize="12" FontBold="0" TextColor="0xBBBBBB" />
+				<Image Left="64" Top="133" Width="219" Height="1" ImageLeft="720" ImageTop="3" ImageWidth="20" ImageHeight="1" LeftMargin="1" RightMargin="1" />
+
+				<Button CmdID="ID_4_3_RATIO" Left="24" Top="148" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="4 : 3" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button CmdID="ID_16_9_RATIO" Left="94" Top="148" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="16 : 9" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button CmdID="ID_16_10_RATIO" Left="164" Top="148" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="16 : 10" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button CmdID="ID_235_1_RATIO" Left="234" Top="148" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="2.35:1" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button Tooltip="$ZUNE_RATIO_BY_SIZE" CmdID="ID_RATIO_BY_SIZE" Left="24" Top="184" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="$ZUNE_KEEP" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button Tooltip="$ZUNE_RATIO_APPLY" CmdID="ID_USER_DEF_RATIO_SETTING" AltCmdID="ID_USER_DEF_RATIO" Left="94" Top="184" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="$ZUNE_RATIO" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button CmdID="ID_AUTO_RATIO" Left="164" Top="184" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="$ZUNE_RESET" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<Button CmdID="ID_SCREEN_RATIO_SETTING" Left="234" Top="184" Width="48" Height="24" ImageLeft="240" ImageTop="320" >
+					<Label Text="$ZUNE_SETTING" FontName="#DEFAULT_UI_FONT" FontSize="11" TextColor="0xDDDDDD" VertAlignment="1" HoriAlignment="1" />
+				</Button>
+				<!-- 屏幕比例 End -->
+			</Static>
+			<!-- 图像页面 End -->
+		</Static>
+	</Control>
+</ControlBoxSkinArea>
+<!-- 控制面板 End -->
+#endif
+
+#if<SkinType==Touch>
+	<PlaylistSkinArea Image="TouchPlaylist.png" AlphaMode="1" WidthLimit="220" HeightLimit="150"
+		SelBkgndColorX="442" SelBkgndColorY="149" FrameColorX="442" FrameColorY="149"
+		BkgndColor1X="140" BkgndColor1Y="120" BkgndColor2X="140" BkgndColor2Y="120"
+		CurTextColorX="442" CurTextColorY="187" SelTextColorX="428" SelTextColorY="187" TextColorX="414" TextColorY="187" PlayedTextColorX="442" PlayedTextColorY="263"
+		LineColorX="442" LineColorY="168"
+		AlbumTabX="8" AlbumTabY="48" AlbumTabW="294" AlbumTabH="48"
+		AlbumTabBtnX="7" AlbumTabBtnY="360" AlbumTabBtnW="76" AlbumTabBtnH="48" AlbumTabBtnMargin="0"
+		AlbumTabTextX="442" AlbumTabTextY="282"
+		AlbumTabSelTextX="442" AlbumTabSelTextY="324"
+		AlbumTabDelX="0" AlbumTabDelY="0" AlbumTabDelW="0" AlbumTabDelH="0"
+		AlbumTabAddX="8" AlbumTabAddY="513" AlbumTabAddW="42" AlbumTabAddH="44"
+		AlbumTabLeftX="8" AlbumTabLeftY="413" AlbumTabLeftW="30" AlbumTabLeftH="44"
+		AlbumTabRightX="8" AlbumTabRightY="463" AlbumTabRightW="30" AlbumTabRightH="44"
+		AlbumTabPopupX="8" AlbumTabPopupY="563" AlbumTabPopupW="42" AlbumTabPopupH="44"
+		SearchIconX="78" SearchIconY="258" SearchIconW="16" SearchIconH="17"
+		SearchIconSelX="103" SearchIconSelY="258" SearchIconSelW="16" SearchIconSelH="17"
+		SearchIconRight="1"
+		SearchBkgndColorX="22" SearchBkgndColorY="266" SearchSelBkgndColorX="52" SearchSelBkgndColorY="266"
+	LeftMargin="6" RightMargin="6" TopMargin="6" BottomMargin="6" UseWindowFrame="0" >
+		<Control>
+
+			<Static Align="Top" State="" LeftMargin="100" RightMargin="10" TopMargin="0" BottomMargin="0" ImageLeft="4" ImageWidth="302" ImageTop="3" ImageHeight="46" Height="46" UsingRgn="1" >
+				<Layout Align="Left" Width="10" />
+				<Label Align="Left" Width="100" ColorX="330" ColorY="38" FontName="#DEFAULT_UI_FONT" FontSize="15" FontBold="1" VertAlignment="1" Text="$PLAYLIST_TITLE" />
+				<Button Tooltip="$CMD_CLOSE_WINDOW" CmdID="ID_PLAYLIST_WINDOW" Left="-25" Top="16" Width="19" Height="14" ImageLeft="315" ImageTop="2" />
+				<#CONTROL Tooltip="$CMD_ATTACH_MAIN" CmdID="CMD_ATTACH_PLAYLIST" Left="-50" Top="16" Width="19" Height="14" ImageLeft="315" ImageTop="21" />
+			</Static>
+
+			<Static Align="Bottom" State="" LeftMargin="10" RightMargin="10" TopMargin="0" BottomMargin="0" ImageLeft="4" ImageWidth="302" ImageTop="189" ImageHeight="4" Height="4" UsingRgn="1" />
+
+			<Static Align="Left" State="" LeftMargin="0" RightMargin="0" TopMargin="50" BottomMargin="20" ImageLeft="4" ImageWidth="4" ImageTop="49" ImageHeight="140" Width="4" />
+			<Static Align="Right" State="" LeftMargin="0" RightMargin="0" TopMargin="50" BottomMargin="20" ImageLeft="302" ImageWidth="4" ImageTop="49" ImageHeight="140" Width="4" />
+
+			<Static Align="Client" Contain="CMD_PLAYLIST_HOLDER">
+				<Static Align="Bottom" State="" LeftMargin="50" RightMargin="20" TopMargin="0" BottomMargin="0" ImageLeft="8" ImageWidth="294" ImageTop="142" ImageHeight="47" Height="47" >
+					<Layout Align="Left" Width="15" />
+					<Button CmdID="CMD_PLAYLIST_ADD" Align="Left" Width="24" ImageLeft="5" ImageTop="312" ImageWidth="20" ImageHeight="20" HoriAlignment="1" VertAlignment="1" />
+
+					<Layout Align="Left" Width="15" />
+					<Button CmdID="CMD_PLAYLIST_DEL" Align="Left" Width="24" ImageLeft="5" ImageTop="330" ImageWidth="18" ImageHeight="16" HoriAlignment="1" VertAlignment="1" />
+					<Layout Align="Left" Width="10" />
+
+					<Layout Align="Right" Width="3" />
+					<Image Align="Client" ImageLeft="7" ImageTop="252" ImageWidth="30" ImageHeight="28" LeftMargin="1" TopMargin="1" RightMargin="1" BottomMargin="1" OffsetTop="4" OffsetHeight="-7" >
+						<Layout Contain="CMD_PLAY_LIST_SEARCH" Align="Client" LeftOffset="1" TopOffset="1" WidthOffset="-2" HeightOffset="-2" />
+					</Image>
+
+				</Static>
+				<Static Align="Client" Contain="CMD_PLAY_LIST_ALBUM_TAB" />
+			</Static>
+
+		</Control>
+	</PlaylistSkinArea>
+#else
+	<!-- 播放列表 Begin -->
+	<PlaylistSkinArea Image="Main.png" AlphaMode="1" UseWindowFrame="0" WidthLimit="256" HeightLimit="186"
+		BkgndColor1X="872" BkgndColor1Y="885" BkgndColor2X="872" BkgndColor2Y="885"
+		TextColorX="860" TextColorY="900"
+		CurTextColorX="872" CurTextColorY="900"
+		PlayedTextColorX="884" PlayedTextColorY="900"
+		SelTextColorX="860" SelTextColorY="915" SelBkgndColorX="872" SelBkgndColorY="915"
+		FrameColorX="860" FrameColorY="930"
+		AlbumTabX="881" AlbumTabY="1080" AlbumTabW="77" AlbumTabH="26"
+		AlbumTabBtnX="650" AlbumTabBtnY="1120" AlbumTabBtnW="77" AlbumTabBtnH="26"
+		AlbumTabBtnMargin="-1"
+		AlbumTabTextX="860" AlbumTabTextY="945" AlbumTabSelTextX="872" AlbumTabSelTextY="945"
+		AlbumTabDelX="717" AlbumTabDelY="1088" AlbumTabDelW="9" AlbumTabDelH="7"
+		AlbumTabLeftX="834" AlbumTabLeftY="1084" AlbumTabLeftW="9" AlbumTabLeftH="15"
+		AlbumTabRightX="779" AlbumTabRightY="1084" AlbumTabRightW="9" AlbumTabRightH="15"
+		SearchIconX="50" SearchIconY="1000" SearchIconW="17" SearchIconH="18"
+		SearchIconSelX="75" SearchIconSelY="1000" SearchIconSelW="17" SearchIconSelH="18" >
+		<Control>
+
+		<!-- 边框 Begin -->
+		<Static Align="Top" Height="1" ImageLeft="650" ImageTop="1080" ImageWidth="17" ImageHeight="16" LeftMargin="1" RightMargin="1" UsingRgn="0" />
+		<Static Align="Bottom" Height="1" ImageLeft="650" ImageTop="1096" ImageWidth="17" ImageHeight="4" LeftMargin="1" RightMargin="1" UsingRgn="0" /><Static Align="Left" Width="5" ImageLeft="650" ImageTop="1081" ImageWidth="16" ImageHeight="15" TopMargin="1" BottomMargin="1" />
+		<Static Align="Right" Width="1" ImageLeft="666" ImageTop="1081" ImageWidth="4" ImageHeight="15" TopMargin="1" BottomMargin="1" />
+		<!-- 边框 End -->
+
+			<!-- 顶部 Begin -->
+			<Static Align="Top" Height="31" ImageLeft="651" ImageTop="1081" ImageWidth="15" ImageHeight="15" LeftMargin="4" RightMargin="4" IsTitleBar="1" AltImageLeft="651" AltImageTop="1081" UsingRgn="0" >
+					<Button Tooltip="$CMD_ATTACH_MAIN" CmdID="CMD_ATTACH_PLAYLIST" Left="3" VertCenter="1" Width="15" Height="15" ImageTop="1181" />
+					<Button CmdID="CMD_TOPMOST_WINDOW" AutoVisible="-1" Left="22" VertCenter="1" Width="21" Height="15" Image="Control.png" ImageLeft="0" ImageTop="246" />
+					<Button CmdID="CMD_TOPMOST_WINDOW" AutoVisible="1" Left="22" VertCenter="1" Width="21" Height="15" Image="Control.png" ImageLeft="84" ImageTop="246" />
+					<!-- <Slider Tooltip="$ZUNE_TRANS" CmdID="CMD_TRANS_PL" Left="52" VertCenter="1" Width="40" Height="9"
+						Image="Control.png" ImageLeft="744" ImageTop="25" ImageWidth="18" ImageHeight="9"
+						BackImageLeft="744" BackImageTop="35"
+						ThumbWidth="5" ThumbHeight="9" ThumbImageLeft="705" ThumbImageTop="25"
+						LeftMargin="3" RightMargin="3" Cursor="Hand"
+					/>-->
+					<Label CmdID="CMD_ALBUM_NAME_MESSAGE" Left="58" Width="-66" Height="30" FontName="#DEFAULT_UI_FONT" FontSize="14" FontBold="1" ColorX="860" ColorY="900" UsingScroll="1" ScrollDistance="1" ScrollInterval="50" HoriAlignment="1" VertAlignment="1" />
+					<Button Tooltip="$PLAYLIST_TITLE" CmdID="CMD_POPUPMENU_ALBUM" AltCmdID="CMD_POPUPMENU_ALBUM" Left="-56" VertCenter="1" Width="26" Height="15" ImageLeft="120" ImageTop="1180" />
+				<Button Tooltip="$CMD_CLOSE_WINDOW" CmdID="ID_PLAYLIST_WINDOW" Left="-24" VertCenter="1" Width="21" Height="15" Image="Control.png" ImageLeft="626" ImageTop="53" />
+			</Static>
+			<!-- 顶部 End -->
+
+			<!-- 列表 Begin -->
+			<Static Align="Client" Contain="CMD_PLAYLIST_HOLDER" >
+				<!-- 右侧边框用于吸附时拖动窗口 --><Static Align="Right" Width="4" ImageLeft="651" ImageTop="1081" ImageWidth="15" ImageHeight="15" TopMargin="1" BottomMargin="1" />
+				<!-- 底部 Begin -->
+				<Static Align="Bottom" Height="32" ImageLeft="651" ImageTop="1081" ImageWidth="15" ImageHeight="15" LeftMargin="1" RightMargin="1" UsingRgn="0" >
+					<Label Align="Top" Height="2" />
+					<Button Tooltip="$ZUNE_PLAYLIST_OPEN_MENU" CmdID="ID_PLAYLIST_OPEN" AltCmdID="CMD_PLAYLIST_MENU_PL" Align="Left" Width="24" Height="18" ImageLeft="480" ImageTop="1180" />
+					<Button Tooltip="$ZUNE_PLAYLIST_ADD_MENU" CmdID="ID_PLAYLIST_FILE_ADD" AltCmdID="CMD_PLAYLIST_ADD" Align="Left" Width="24" Height="18" ImageLeft="580" ImageTop="1180" />
+					<Button Tooltip="$ZUNE_PLAYLIST_DEL_MENU" CmdID="ID_PLAYLIST_DEL" AltCmdID="CMD_PLAYLIST_DEL" Align="Left" Width="24" Height="18" ImageLeft="680" ImageTop="1180" />
+					<!-- <Button Tooltip="$ZUNE_REPEAT_MENU" CmdID="ID_PLAYBACK_REPEAT" AltCmdID="CMD_POPUPMENU_PLAY_REPEAT2" Align="Left" Width="24" Height="18" ImageLeft="320" ImageTop="1180" />
+					<Button Tooltip="$ZUNE_SHUFFLE_VISUAL" CmdID="ID_PLAYBACK_SHUFFLE" AltCmdID="CMD_POPUPMENU_VISUAL" Align="Left" Width="24" Height="18" ImageLeft="400" ImageTop="1180" />
+					<Button Tooltip="$ZUNE_UP_TOP" CmdID="CMD_PLAYLIST_UP" AltCmdID="CMD_PLAYLIST_TOP" Align="Left" Width="24" Height="18" ImageLeft="780" ImageTop="1180" />
+					<Button Tooltip="$ZUNE_DOWN_BOTTOM" CmdID="CMD_PLAYLIST_DOWN" AltCmdID="CMD_PLAYLIST_BOTTOM" Align="Left" Width="24" Height="18" ImageLeft="880" ImageTop="1180" />-->
+					<Button Tooltip="$ZUNE_SORT_MENU" CmdID="ID_PLAYLIST_SORT" AltCmdID="CMD_PLAYLIST_MENU_SORT" Align="Left" Width="24" Height="18" ImageLeft="980" ImageTop="1180" />
+					<Button Tooltip="$ZUNE_FAV_ALBUM" CmdID="CMD_POPUPMENU_FAVORITE" AltCmdID="CMD_PLAYLIST_MENU_ALBUM" Align="Left" Width="24" Height="18" ImageLeft="240" ImageTop="1180" />
+					<Label Align="Left" Width="6" />
+					<Label CmdID="CMD_PLAYLIST_TOTAL_TIME_MESSAGE" Align="Right" AutoVisible="1" Enabled="1" Width="50" ColorX="860" ColorY="900" FontName="#DEFAULT_UI_FONT" FontSize="11" OffsetLeft="-2" HoriAlignment="1" VertAlignment="1" />
+					<Label Align="Right" Width="2" />
+					<Image Align="Client" ImageTop="1000" ImageWidth="45" ImageHeight="20" LeftMargin="1" TopMargin="1" RightMargin="1" BottomMargin="1" OffsetTop="4" OffsetHeight="-10" >
+						<Layout Contain="CMD_PLAY_LIST_SEARCH" Align="Client" LeftOffset="1" TopOffset="1" WidthOffset="-2" HeightOffset="-2" />
+					</Image>
+				</Static>
+				<!-- 底部 End -->
+				<Static Align="Client" Contain="CMD_PLAY_LIST" />
+				<!-- <Static Align="Client" Contain="CMD_PLAY_LIST_ALBUM_TAB" />-->
+			</Static>
+			<!-- 列表 End -->
+
+		</Control>
+	</PlaylistSkinArea>
+	<!-- 播放列表 End -->
+#endif
+
+	<1stCaptureSkinArea Image="Window.png" AlphaMode="1" Height="26" WidthLimit="200" HeightLimit="30" >
+		<Control>
+			<Static Align="Top" State="" LeftMargin="100" RightMargin="5" TopMargin="0" BottomMargin="0" ImageWidth="307" ImageTop="473" ImageHeight="26" Height="26" AltImageLeft="317" AltImageTop="473" UsingRgn="1" >
+				<Layout Align="Left" Width="20" />
+				<Label Align="Left" Width="100" ColorX="358" ColorY="56" FontName="#DEFAULT_UI_FONT" FontSize="11" FontBold="1" VertAlignment="1" Text="$SCREEN_CAP1_TITLE" />
+
+				<Button Tooltip="$CMD_CAPTURE1ST_SELECT" CmdID="CMD_CAPTURE1ST_SELECT_ON" Left="6" Top="8" Width="11" Height="10" ImageTop="78" />
+				<Button Tooltip="$CMD_CAPTURE1ST_SELECT" CmdID="CMD_CAPTURE1ST_SELECT_OFF" Left="6" Top="8" Width="11" Height="10" ImageLeft="63" ImageTop="78" />
+				<Button Tooltip="$CMD_CAPTURE2ND_SHOW" CmdID="CMD_CAPTURE2ND_SHOW" Left="76" Top="5" Width="24" Height="16" ImageTop="121" />
+				<Button Tooltip="$CMD_CAPTURE2ND_HIDE" CmdID="CMD_CAPTURE2ND_HIDE" Left="76" Top="5" Width="24" Height="16" ImageLeft="105" ImageTop="121" />
+				<Button Tooltip="$CMD_CAPTURE1ST_PRIMARY" CmdID="CMD_CAPTURE1ST_PRIMARY_ON" Left="103" Top="5" Width="22" Height="16" ImageLeft="210" ImageTop="121" />
+				<Button Tooltip="$CMD_CAPTURE1ST_PRIMARY" CmdID="CMD_CAPTURE1ST_PRIMARY_OFF" Left="103" Top="5" Width="22" Height="16" ImageLeft="307" ImageTop="121" />
+
+				<Button Tooltip="$CMD_CAPTURE_PIP_SETTING" CmdID="CMD_CAPTURE_PIP_SETTING" Left="-93" Top="5" Width="17" Height="16" />
+				<Button Tooltip="$CMD_CAPTURE_FINDWND" CmdID="CMD_CAPTURE1ST_FINDWND" Left="-76" Top="5" Width="17" Height="16" ImageLeft="219"/>
+				<Image CmdID="" Left="-57" Top="8" Width="2" Height="10" ImageLeft="370" ImageWidth="2" ImageHeight="15" />
+				<Button Tooltip="$CMD_CAPTURE_OPTIMIZE_SIZE" CmdID="CMD_CAPTURE1ST_OPTIMIZE_SIZE" Left="-53" Top="5" Width="17" Height="16" ImageLeft="146" />
+				<Button Tooltip="$CMD_CAPTURE_FULLSCREEN" CmdID="CMD_CAPTURE1ST_FULLSCREEN" Left="-37" Top="5" Width="17" Height="16" ImageLeft="146" ImageTop="16" />
+				<Button Tooltip="$CMD_CAPTURE_NORMALSCREEN" CmdID="CMD_CAPTURE1ST_NORMALSCREEN" Left="-37" Top="5" Width="17" Height="16" ImageLeft="73" ImageTop="0" />
+				<Button Tooltip="$CMD_CAPTURE1ST_HIDE" CmdID="CMD_CAPTURE1ST_HIDE" Left="-21" Top="5" Width="17" Height="16" ImageLeft="296" />
+			</Static>
+
+			<Static Align="Bottom" State="" LeftMargin="5" RightMargin="5" TopMargin="0" BottomMargin="0" ImageWidth="307" ImageTop="615" ImageHeight="5" Height="5" AltImageLeft="317" AltImageTop="615" UsingRgn="1" />
+
+			<Static Align="Left" State="" LeftMargin="0" RightMargin="0" TopMargin="5" BottomMargin="5" ImageWidth="5" ImageTop="503" ImageHeight="96" Width="5" AltImageLeft="317" AltImageTop="503" />
+			<Static Align="Right" State="" LeftMargin="0" RightMargin="0" TopMargin="5" BottomMargin="5" ImageLeft="302" ImageWidth="5" ImageTop="503" ImageHeight="96" Width="5" AltImageLeft="656" AltImageTop="503" />
+		</Control>
+	</1stCaptureSkinArea>
+
+	<2ndCaptureSkinArea Image="Window.png" AlphaMode="1" Height="26" WidthLimit="200" HeightLimit="30">
+		<Control>
+			<Static Align="Top" State="" LeftMargin="100" RightMargin="5" TopMargin="0" BottomMargin="0" ImageWidth="307" ImageTop="473" ImageHeight="26" Height="26" AltImageLeft="317" AltImageTop="473" UsingRgn="1" >
+				<Layout Align="Left" Width="20" />
+				<Label Align="Left" Width="100" ColorX="358" ColorY="56" FontName="#DEFAULT_UI_FONT" FontSize="11" FontBold="1" VertAlignment="1" Text="$SCREEN_CAP2_TITLE" />
+
+				<Button Tooltip="$CMD_CAPTURE2ND_SELECT" CmdID="CMD_CAPTURE2ND_SELECT_ON" Left="6" Top="8" Width="11" Height="10" ImageTop="78" />
+				<Button Tooltip="$CMD_CAPTURE2ND_SELECT" CmdID="CMD_CAPTURE2ND_SELECT_OFF" Left="6" Top="8" Width="11" Height="10" ImageLeft="63" ImageTop="78" />
+				<Button Tooltip="$CMD_CAPTURE1ST_SHOW" CmdID="CMD_CAPTURE1ST_SHOW" Left="76" Top="5" Width="24" Height="16" ImageTop="121" />
+				<Button Tooltip="$CMD_CAPTURE1ST_HIDE" CmdID="CMD_CAPTURE1ST_HIDE" Left="76" Top="5" Width="24" Height="16" ImageLeft="105" ImageTop="121" />
+				<Button Tooltip="$CMD_CAPTURE2ND_PRIMARY" CmdID="CMD_CAPTURE2ND_PRIMARY_ON" Left="103" Top="5" Width="22" Height="16" ImageLeft="210" ImageTop="121" />
+				<Button Tooltip="$CMD_CAPTURE2ND_PRIMARY" CmdID="CMD_CAPTURE2ND_PRIMARY_OFF" Left="103" Top="5" Width="22" Height="16" ImageLeft="307" ImageTop="121" />
+
+				<Button Tooltip="$CMD_CAPTURE_PIP_SETTING" CmdID="CMD_CAPTURE_PIP_SETTING" Left="-93" Top="5" Width="17" Height="16" />
+				<Button Tooltip="$CMD_CAPTURE_FINDWND" CmdID="CMD_CAPTURE2ND_FINDWND" Left="-76" Top="5" Width="17" Height="16" ImageLeft="219" />
+				<Image CmdID="" Left="-57" Top="8" Width="2" Height="10" ImageLeft="370" ImageWidth="2" ImageHeight="15" />
+				<Button Tooltip="$CMD_CAPTURE_OPTIMIZE_SIZE" CmdID="CMD_CAPTURE2ND_OPTIMIZE_SIZE" Left="-53" Top="5" Width="17" Height="16" ImageLeft="146" />
+				<Button Tooltip="$CMD_CAPTURE_FULLSCREEN" CmdID="CMD_CAPTURE2ND_FULLSCREEN" Left="-37" Top="5" Width="17" Height="16" ImageLeft="146" ImageTop="16" />
+				<Button Tooltip="$CMD_CAPTURE_NORMALSCREEN" CmdID="CMD_CAPTURE2ND_NORMALSCREEN" Left="-37" Top="5" Width="17" Height="16" ImageLeft="73" ImageTop="0" />
+				<Button Tooltip="$CMD_CAPTURE2ND_HIDE" CmdID="CMD_CAPTURE2ND_HIDE" Left="-21" Top="5" Width="17" Height="16" ImageLeft="296" />
+			</Static>
+
+			<Static Align="Bottom" State="" LeftMargin="5" RightMargin="5" TopMargin="0" BottomMargin="0" ImageWidth="307" ImageTop="615" ImageHeight="5" Height="5" AltImageLeft="317" AltImageTop="615" UsingRgn="1" />
+
+			<Static Align="Left" State="" LeftMargin="0" RightMargin="0" TopMargin="5" BottomMargin="5" ImageWidth="5" ImageTop="503" ImageHeight="96" Width="5" AltImageLeft="317" AltImageTop="503" />
+			<Static Align="Right" State="" LeftMargin="0" RightMargin="0" TopMargin="5" BottomMargin="5" ImageLeft="302" ImageWidth="5" ImageTop="503" ImageHeight="96" Width="5" AltImageLeft="656" AltImageTop="503" />
+		</Control>
+	</2ndCaptureSkinArea>
+
+	<WindowSkinArea Image="Window.png" UseWindowFrame="0">
+		<Common>
+			<BtnPosition Left="0" Top="52" Width="39" Height="21" />
+			<AltBtnPosition Left="0" Top="52" Width="39" Height="21" />
+			<TabPosition Left="0" Top="93" Width="70" Height="26" Margin=-1 />
+			<AltTabPosition Left="260" Top="40" Width="65" Height="22" />
+			<BtnTextColor Left="180" Top="57" />
+			<TabTextColor Left="301" Top="98" />
+			<WindowType0 Left="0" Top="139" Width="307" Height="147" LeftDrawMargin="12" TopDrawMargin="50" RightDrawMargin="12" BottomDrawMargin="37" AltLeft="317" AltTop="139"
+				BottomMargin="32"
+				LeftSkinMargin="5" TopSkinMargin="30" RightSkinMargin="5" BottomSkinMargin="5"
+				FontName="#DEFAULT_UI_FONT" FontSize="9" FontPosLeft="10" FontPosTop="10000" FontColorLeft="322" FontColorTop="696" FontColorAltLeft="322" FontColorAltTop="713" />
+			<WindowType1 Left="0" Top="306" Width="307" Height="147" LeftDrawMargin="12" TopDrawMargin="50" RightDrawMargin="12" BottomDrawMargin="37" AltLeft="317" AltTop="306"
+				TopMargin="26" BottomMargin="32"
+				LeftSkinMargin="5" TopSkinMargin="30" RightSkinMargin="5" BottomSkinMargin="5"
+				FontName="#DEFAULT_UI_FONT" FontSize="9" FontPosLeft="10" FontPosTop="10000" FontColorLeft="322" FontColorTop="696" FontColorAltLeft="322" FontColorAltTop="713" />
+			<WindowType2 Left="0" Top="473" Width="307" Height="147" LeftDrawMargin="12" TopDrawMargin="50" RightDrawMargin="12" BottomDrawMargin="37" AltLeft="317" AltTop="473"
+				LeftSkinMargin="5" TopSkinMargin="30" RightSkinMargin="5" BottomSkinMargin="5"
+				FontName="#DEFAULT_UI_FONT" FontSize="9" FontPosLeft="10" FontPosTop="10000" FontColorLeft="322" FontColorTop="696" FontColorAltLeft="322" FontColorAltTop="713" />
+			<CloseBtn Left="219" Top="16" Width="17" Height="16" PosX="-20" PosY="4" />
+			<SetupBtn Left="294" Top="16" Width="19" Height="18" PosX="-42" PosY="3" />
+			<MessageColorPos Left="180" Top="57" />
+			<MessageHotColorPos Left="305" Top="98" />
+			<MessageIconType0 Left="0" Top="640" Width="33" Height="32" />
+			<MessageIconType1 Left="33" Top="640" Width="33" Height="32" />
+			<MessageIconType2 Left="66" Top="640" Width="33" Height="32" />
+			<MessageIconType3 Left="99" Top="640" Width="33" Height="32" />
+			<MessageGrade15 Left="0" Top="680" Width="65" Height="77" />
+			<MessageGrade18 Left="74" Top="680" Width="65" Height="77" />
+			<MessageGrade19 Left="148" Top="680" Width="65" Height="77" />
+			<MessageGradeNone Left="222" Top="680" Width="65" Height="77" />
+			<AboutIcon Left="600" Top="45" Width="73" Height="62" PosX="36" PosY="75" />
+			<AutoUpdateLogo Left="400" Top="0" Width="297" Height="34" PosX="5" PosY="24" />
+		</Common>
+	</WindowSkinArea>

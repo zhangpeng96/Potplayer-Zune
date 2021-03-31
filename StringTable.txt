@@ -1,0 +1,189 @@
+﻿<StringTable Name="$MAIN_TAB_PLAYLIST" String="{$CP936=播放列表$}{$CP950=播放清單$}{$CP0=Playlist$}" />
+<StringTable Name="$CONTROL_BOX_TITLE" String="{$CP936=控制面板$}{$CP950=控制面版$}{$CP0=Control Panel$}" />
+<StringTable Name="$PLAYLIST_TITLE" String="{$CP936=播放列表$}{$CP950=播放清單$}{$CP0=Playlist$}" />
+<StringTable Name="$SCREEN_CAP1_TITLE" String="{$CP936=摄像头 1$}{$CP950=攝影機 1$}{$CP0=Camera 1$}" />
+<StringTable Name="$SCREEN_CAP2_TITLE" String="{$CP936=摄像头 2$}{$CP950=攝影機 2$}{$CP0=Camera 2$}" />
+<StringTable Name="$CMD_POPUPMENU_STREAM_SELECT" String="{$CP936=选择流$}{$CP950=選擇串流$}{$CP0=Select stream$}" />
+<StringTable Name="$CMD_TOUCH_LOCK" String="{$CP936=触摸锁定 开/关$}{$CP950=觸控鎖定 開/關$}{$CP0=Lock touch On/Off$}" />
+<StringTable Name="$CONTROL_AUDIO" String="{$CP936=声音$}{$CP950=聲音$}{$CP0=Audio$}" />
+<StringTable Name="$CONTROL_VIDEO" String="{$CP936=视频$}{$CP950=視訊$}{$CP0=Video$}" />
+<StringTable Name="$CONTROL_SUBTITLE" String="{$CP936=字幕$}{$CP950=字幕$}{$CP0=Subtitle$}" />
+<StringTable Name="$CONTROL_PLAYBACK" String="{$CP936=播放$}{$CP950=播放$}{$CP0=Playback$}" />
+<StringTable Name="$CONTROL_EQUALIZER" String="{$CP936=均衡器$}{$CP950=等化器$}{$CP0=Equalizer$}" />
+<StringTable Name="$CONTROL_PRESET" String="{$CP936=预置$}{$CP950=預設$}{$CP0=Preset$}" />
+<StringTable Name="$CONTROL_VOLUME" String="{$CP936=音量$}{$CP950=音量$}{$CP0=VOL$}" />
+<StringTable Name="$CONTROL_BRIGHTNESS" String="{$CP936=亮度 (%s%%)$}{$CP950=亮度 (%s%%)$}{$CP0=Brightness (%s%%)$}" />
+<StringTable Name="$CONTROL_CONTRAST" String="{$CP936=对比度 (%s%%)$}{$CP950=對比度 (%s%%)$}{$CP0=Contrast (%s%%)$}" />
+<StringTable Name="$CONTROL_SATURATION" String="{$CP936=饱和度 (%s%%)$}{$CP950=飽和度 (%s%%)$}{$CP0=Saturation (%s%%)$}" />
+<StringTable Name="$CONTROL_COLOR" String="{$CP936=色调 (%s%%)$}{$CP950=色調 (%s%%)$}{$CP0=Color (%s%%)$}" />
+<StringTable Name="$CONTROL_SOFTEN" String="{$CP936=柔和度$}{$CP950=柔和化$}{$CP0=Soften$}" />
+<StringTable Name="$CONTROL_SHARPEN" String="{$CP936=锐度$}{$CP950=銳利化$}{$CP0=Sharpen$}" />
+<StringTable Name="$CONTROL_DEBLOCK" String="{$CP936=消除色块$}{$CP950=去除色塊$}{$CP0=Deblock$}" />
+<StringTable Name="$CONTROL_CAPTURE" String="{$CP936=截图$}{$CP950=擷取$}{$CP0=Capture$}" />
+<StringTable Name="$CONTROL_VIDEO_DEFAULT" String="{$CP936=默认$}{$CP950=預設$}{$CP0=Default$}" />
+<StringTable Name="$CONTROL_FONT" String="{$CP936=字体$}{$CP950=字型$}{$CP0=Font$}" />
+<StringTable Name="$CONTROL_POSITION" String="{$CP936=位置$}{$CP950=位置$}{$CP0=Position$}" />
+<StringTable Name="$CONTROL_POSITION1" String="{$CP936=位置 (%s%%)$}{$CP950=位置 (%s%%)$}{$CP0=Position (%s%%)$}" />
+<StringTable Name="$CONTROL_UP" String="{$CP936=上移$}{$CP950=上移$}{$CP0=Move Up$}" />
+<StringTable Name="$CONTROL_DOWN" String="{$CP936=下移$}{$CP950=下移$}{$CP0=Move Down$}" />
+<StringTable Name="$CONTROL_LEFT" String="{$CP936=左移$}{$CP950=左移$}{$CP0=Move Left$}" />
+<StringTable Name="$CONTROL_RIGHT" String="{$CP936=右移$}{$CP950=右移$}{$CP0=Move Right$}" />
+<StringTable Name="$CONTROL_SUBTITLE_DEFAULT" String="{$CP936=默认$}{$CP950=回到預設$}{$CP0=Default$}" />
+<StringTable Name="$CONTROL_SUBTITLE_SYNC" String="{$CP936=同步$}{$CP950=同步$}{$CP0=Sync$}" />
+<StringTable Name="$CONTROL_SUBTITLE_SYNC1" String="{$CP936=同步 (%s)$}{$CP950=同步 (%s)$}{$CP0=Sync (%s Sec)$}" />
+<StringTable Name="$CONTROL_SUBTITLE_SLOWER" String="{$CP936=滞后0.5秒$}{$CP950=延後$}{$CP0=Slower$}" />
+<StringTable Name="$CONTROL_SUBTITLE_FASTER" String="{$CP936=超前0.5秒$}{$CP950=提早$}{$CP0=Faster$}" />
+<StringTable Name="$CONTROL_PLAYBACK_SPEED" String="{$CP936=播放速度$}{$CP950=播放速度$}{$CP0=Speed$}" />
+<StringTable Name="$CONTROL_PLAYBACK_SPEED1" String="{$CP936=速度 (%sx)$}{$CP950=速度 (%sx)$}{$CP0=Speed (%sx)$}" />
+<StringTable Name="$CONTROL_PLAYBACK_DEFAULT" String="{$CP936=复位调整$}{$CP950=正常／先前$}{$CP0=Default$}" />
+<StringTable Name="$CONTROL_PLAYBACK_SLOWER" String="{$CP936=减速$}{$CP950=減慢$}{$CP0=Slower$}" />
+<StringTable Name="$CONTROL_PLAYBACK_FASTER" String="{$CP936=加速$}{$CP950=加快$}{$CP0=Faster$}" />
+<StringTable Name="$CONTROL_PLAYBACK_SYNC" String="{$CP936=速度 (%s)$}{$CP950=速度 (%s)$}{$CP0=Sync (%s Sec)$}" />
+<StringTable Name="$CONTROL_SEEK" String="{$CP936=搜索$}{$CP950=搜尋$}{$CP0=Seek$}" />
+<StringTable Name="$CONTROL_SEEK_5" String="{$CP936=默认搜索时间$}{$CP950=預設搜尋時間$}{$CP0=Default seeking time$}" />
+<StringTable Name="$CONTROL_SEEK_30" String="{$CP936=两指搜索时间$}{$CP950=兩指搜尋時間$}{$CP0=Two fingers seeking time$}" />
+<StringTable Name="$CONTROL_SEEK_60" String="{$CP936=三指搜索时间$}{$CP950=三指搜尋時間$}{$CP0=Three fingers seeking time$}" />
+<StringTable Name="$CONTROL_AB" String="{$CP936=AB区段$}{$CP950=A-B 區段$}{$CP0=A-B$}" />
+<StringTable Name="$CONTROL_A" String="{$CP936=A区段$}{$CP950=A 區段$}{$CP0=A$}" />
+<StringTable Name="$CONTROL_B" String="{$CP936=B区段$}{$CP950=B 區段$}{$CP0=B$}" />
+<StringTable Name="$CONTROL_STOP" String="{$CP0=Undo$}{$CP936=解除$}{$CP950=解除$}" />
+<StringTable Name="$CONTROL_DEFAULT" String="{$CP936=■ 默认$}{$CP950=■ 預設$}{$CP0=■ Default$}" />
+<StringTable Name="$CONTROL_DEC" String="{$CP936=◀ 减少$}{$CP950=◀ 減少$}{$CP0=◀ Decrease$}" />
+<StringTable Name="$CONTROL_INC" String="{$CP936=▶ 增大$}{$CP950=▶ 增大$}{$CP0=▶ Increase$}" />
+<StringTable Name="$CONTROL_UP1" String="{$CP936=▲ 上移$}{$CP950=▲ 上移$}{$CP0=▲ Up$}" />
+<StringTable Name="$CONTROL_DOWN1" String="{$CP936=▼ 下移$}{$CP950=▼ 下移$}{$CP0=▼ Down$}" />
+<StringTable Name="$CONTROL_CAPTION_SIZE" String="{$CP936=大小 (%s)$}{$CP950=大小 (%s)$}{$CP0=Size (%s)$}" />
+<StringTable Name="$CONTROL_CAPTION_SEL" String="{$CP936=选择字幕$}{$CP950=選擇字幕$}{$CP0=Select subtitle$}" />
+<StringTable Name="$CONTROL_VIDEO_SEL" String="{$CP936=选择视频$}{$CP950=選擇視訊$}{$CP0=Select video$}" />
+<StringTable Name="$CONTROL_VIDEO_COLOR" String="{$CP936=色彩控制$}{$CP950=色彩控制$}{$CP0=Color Control$}" />
+<StringTable Name="$CONTROL_VIDEO_RATIO" String="{$CP936=屏幕比例$}{$CP950=螢幕比例$}{$CP0=Screen Ratio$}" />
+<StringTable Name="$CONTROL_AUDIO_SEL" String="{$CP936=选择音频$}{$CP950=選擇音訊$}{$CP0=Select audio$}" />
+<StringTable Name="$CONTROL_AUDIO_MASTER_VOLUME" String="{$CP936=主音量 (%s%%)$}{$CP950=主音量 (%s%%)$}{$CP0=Volume (%s%%)$}" />
+<StringTable Name="$CONTROL_AUDIO_WAVE_VOLUME" String="{$CP936=波形音量 (%s%%)$}{$CP950=波形音量 (%s%%)$}{$CP0=Wave Volume (%s%%)$}" />
+<StringTable Name="$CMD_MEDIA_PLAY" String="{$CP936=播放$}{$CP950=播放$}{$CP0=Play$}" />
+<StringTable Name="$CMD_MEDIA_PAUSE" String="{$CP936=暂停$}{$CP950=暫停$}{$CP0=Pause$}" />
+<StringTable Name="$CMD_MEDIA_CLOSE" String="{$CP936=停止$}{$CP950=停止$}{$CP0=Stop$}" />
+<StringTable Name="$ID_PLAYBACK_5SEC_BACK_PREV" String="{$CP936=L:后退, R:上一个$}{$CP950=左鍵：快退｜右鍵：播放上一檔案$}{$CP0=L:Seek backward, R:Play previous$}" />
+<StringTable Name="$ID_PLAYBACK_5SEC_FORW_NEXT" String="{$CP936=L:快进, R:下一个$}{$CP950=左鍵：快進｜右鍵：播放下一檔案$}{$CP0=L:Seek forward, R:Play next$}"/>
+<StringTable Name="$ID_PLAYBACK_5SEC_BACK" String="{$CP936=后退$}{$CP950=快退$}{$CP0=Seek backward$}" />
+<StringTable Name="$ID_PLAYBACK_5SEC_FORW" String="{$CP936=快进$}{$CP950=快進$}{$CP0=Seek forward$}" />
+<StringTable Name="$ID_OPEN_FILE" String="{$CP936=打开文件$}{$CP950=開啟檔案$}{$CP0=Open file$}" />
+<StringTable Name="$ID_AUDIO_MUTE" String="{$CP936=静音 On/Off$}{$CP950=靜音 On/Off$}{$CP0=Mute On/Off$}" />
+<StringTable Name="$CMD_LOAD_SKIN_XML_DEF" String="{$CP936=默认模式$}{$CP950=預設模式$}{$CP0=Default mode$}" />
+<StringTable Name="$CMD_LOAD_SKIN_XML_MIN" String="{$CP936=迷你模式$}{$CP950=迷你模式$}{$CP0=Mini mode$}" />
+<StringTable Name="$ID_APP_EXIT" String="{$CP936=退出$}{$CP950=關閉$}{$CP0=Exit$}" />
+<StringTable Name="$CMD_ATTACH_WINDOW_OPEN" String="{$CP936=打开聊天室/点播列表/播放列表$}{$CP950=開啟聊天室/點播清單/播放清單$}{$CP0=Open Chat room/List of broadcast/Playlist$}" />
+<StringTable Name="$CMD_ATTACH_WINDOW_CLOSE" String="{$CP936=关闭聊天室/点播列表/播放列表$}{$CP950=關閉聊天室/點播清單/播放清單$}{$CP0=Close Chat room/List of broadcast/Playlist$}" />
+<StringTable Name="$CMD_DETACH_PLAYLIST" String="{$CP936=拆分播放列表$}{$CP950=分離播放清單$}{$CP0=Detach playlist$}" />
+<StringTable Name="$CMD_MAIN_MENU" String="{$CP936=显示主菜单$}{$CP950=顯示主選單$}{$CP0=Show main menu$}" />
+<StringTable Name="$ID_PLAYLIST_WINDOW" String="{$CP936=打开/隐藏播放列表$}{$CP950=開啟/隱藏播放清單$}{$CP0=Open/Hide playlist$}" />
+<StringTable Name="$ID_CONTROL_BOX_WINDOW" String="{$CP936=打开/隐藏控制面板$}{$CP950=開啟/隱藏控制面板$}{$CP0=Open/Hide control panel$}" />
+<StringTable Name="$ID_PLAY_REPEAT_START_SET" String="{$CP936=设定区段起点$}{$CP950=設定區段起點$}{$CP0=Set start point for playback range$}" />
+<StringTable Name="$ID_PLAY_REPEAT_RESET" String="{$CP936=重置区段循环$}{$CP950=重設區段循環$}{$CP0=Reset playback range$}" />
+<StringTable Name="$ID_PLAY_REPEAT_STOP_SET" String="{$CP936=设定区段止点$}{$CP950=設定區段止點$}{$CP0=Set end point for playback range$}" />
+<StringTable Name="$ID_PLAYBACK_REPEAT" String="{$CP936=循环播放$}{$CP950=循環播放$}{$CP0=Repeat playback$}" />
+<StringTable Name="$ID_PLAYBACK_SHUFFLE" String="{$CP936=随机播放$}{$CP950=隨機播放$}{$CP0=Shuffle playback$}" />
+<StringTable Name="$ID_BROADCAST_TOOL_WINDOW" String="{$CP936=打开/关闭点播窗口$}{$CP950=開啟/關閉點播視窗$}{$CP0=Broadcast tool On/Off$}" />
+<StringTable Name="$ID_BROADCAST_LIST_WINDOW" String="{$CP936=打开/关闭点播列表$}{$CP950=開啟/關閉點播清單$}{$CP0=List of broadcast On/Off$}" />
+<StringTable Name="$CMD_MIN_WINDOW" String="{$CP936=最小化$}{$CP950=最小化$}{$CP0=Minimize$}" />
+<StringTable Name="$CMD_MAX_WINDOW" String="{$CP936=最大化$}{$CP950=最大化$}{$CP0=Maximize$}" />
+<StringTable Name="$CMD_RESTORE_WINDOW" String="{$CP936=恢复尺寸$}{$CP950=還原大小$}{$CP0=Restore$}" />
+<StringTable Name="$CMD_FULL_WINDOW" String="{$CP936=全屏$}{$CP950=全螢幕$}{$CP0=Full screen$}" />
+<StringTable Name="$ID_WDM_CH_SEL_MENU" String="{$CP936=频道管理$}{$CP950=頻道管理$}{$CP0=Manage channels$}" />
+<StringTable Name="$ID_WDM_FORCE_PREV_CH" String="{$CP936=L:上一频道, R:强制上一频道$}{$CP950=左鍵：上一頻道｜右鍵：強制上一頻道$}{$CP0=L:Previous channel, R:Previous channel(forced)$}" />
+<StringTable Name="$ID_WDM_FORCE_NEXT_CH" String="{$CP936=L:下一频道, R:强制下一频道$}{$CP950=左鍵：下一頻道｜右鍵：強制下一頻道$}{$CP0=L:Next channel, R:Next channel(forced)$}" />
+<StringTable Name="$CMD_CLOSE_WINDOW" String="{$CP936=关闭$}{$CP950=關閉$}{$CP0=Close$}" />
+<StringTable Name="$CMD_ATTACH_MAIN" String="{$CP936=吸附主界面$}{$CP950=吸附主介面$}{$CP0=Attach to main$}" />
+<StringTable Name="$CMD_PLAYLIST_TOP" String="{$CP936=置顶$}{$CP950=移到頂端$}{$CP0=Move to first$}" />
+<StringTable Name="$CMD_PLAYLIST_UP" String="{$CP936=上移$}{$CP950=上移$}{$CP0=Move up$}" />
+<StringTable Name="$CMD_PLAYLIST_DOWN" String="{$CP936=下移$}{$CP950=下移$}{$CP0=Move down$}" />
+<StringTable Name="$CMD_PLAYLIST_BOTTOM" String="{$CP936=置底$}{$CP950=移到底部$}{$CP0=Move to last$}" />
+<StringTable Name="$CMD_CAPTURE1ST_SELECT" String="{$CP936=打开1号镜头$}{$CP950=開啟 1 號鏡頭$}{$CP0=Select first camera$}" />
+<StringTable Name="$CMD_CAPTURE2ND_SELECT" String="{$CP936=打开2号镜头$}{$CP950=開啟 2 號鏡頭$}{$CP0=Select second camera$}" />
+<StringTable Name="$CMD_CAPTURE1ST_SHOW" String="{$CP936=显示1号镜头$}{$CP950=顯示 1 號鏡頭$}{$CP0=Show first camera$}" />
+<StringTable Name="$CMD_CAPTURE2ND_SHOW" String="{$CP936=显示2号镜头$}{$CP950=顯示 2 號鏡頭$}{$CP0=Show second camera$}" />
+<StringTable Name="$CMD_CAPTURE1ST_HIDE" String="{$CP936=隐藏1号镜头$}{$CP950=隱藏 1 號鏡頭$}{$CP0=Hide first camera$}" />
+<StringTable Name="$CMD_CAPTURE2ND_HIDE" String="{$CP936=隐藏2号镜头$}{$CP950=隱藏 2 號鏡頭$}{$CP0=Hide second camera$}" />
+<StringTable Name="$CMD_CAPTURE2ND_PRIMARY" String="{$CP936=置顶1号镜头$}{$CP950=置頂 1 號鏡頭$}{$CP0=Make first camera primary$}" />
+<StringTable Name="$CMD_CAPTURE1ST_PRIMARY" String="{$CP936=置顶2号镜头$}{$CP950=置頂 2 號鏡頭$}{$CP0=Make second camera primary$}" />
+<StringTable Name="$CMD_CAPTURE_PIP_SETTING" String="{$CP936=画中画设置$}{$CP950=畫中畫設定$}{$CP0=Setting PIP(Picture In Picture)$}" />
+<StringTable Name="$CMD_CAPTURE_FINDWND" String="{$CP936=选择窗口$}{$CP950=選擇視窗$}{$CP0=Find window to capture$}" />
+<StringTable Name="$CMD_CAPTURE_OPTIMIZE_SIZE" String="{$CP936=自适应/默认尺寸$}{$CP950=自適應/預設大小$}{$CP0=Optimize size/Restore size$}" />
+<StringTable Name="$CMD_CAPTURE_FULLSCREEN" String="{$CP936=捕捉全屏$}{$CP950=擷取全螢幕$}{$CP0=Capture in full screen size$}" />
+<StringTable Name="$CMD_CAPTURE_NORMALSCREEN" String="{$CP936=捕捉主画面$}{$CP950=擷取主畫面$}{$CP0=Capture in default size$}" />
+
+
+<!-- Zune+ -->
+<StringTable Name="$ZUNE_CAPTURE_BUTTON" String="{$CP936=截图｜截图菜单$}{$CP950=截圖｜截圖選單$}{$CP0=L:Capture, R:Capture Menu$}" />
+<StringTable Name="$ZUNE_ONTOP_BUTTON" String="{$CP936=置顶｜置顶菜单$}{$CP950=置頂｜置頂選單$}{$CP0=L:On Top, R:On Top Menu$}" />
+<StringTable Name="$ZUNE_FILTER_RATIO" String="{$CP936=图像｜比例调整$}{$CP950=圖像｜比例調整$}{$CP0=L:Video Processing, R:Aspect Ratio$}" />
+<StringTable Name="$ZUNE_MIN_WINDOW" String="{$CP936=最小化｜屏幕尺寸$}{$CP950=最小化｜屏幕尺寸$}{$CP0=L:Minimize, R:Window Size$}" />
+<StringTable Name="$ZUNE_MAX_WINDOW" String="{$CP936=最大化｜全屏$}{$CP950=最大化｜全屏$}{$CP0=L:Maximize, R:Fullscreen$}" />
+<StringTable Name="$ZUNE_RESTORE_WINDOW" String="{$CP936=还原｜全屏$}{$CP950=還原大小｜全屏$}{$CP0=L:Restore, R:Fullscreen$}" />
+<StringTable Name="$ZUNE_CLOSE_WINDOW" String="{$CP936=关闭｜收尾处理$}{$CP950=關閉｜播放結束後操作$}{$CP0=L:Close, R:When Finished$}" />
+<StringTable Name="$ZUNE_TRANS" String="{$CP936=透明度$}{$CP950=透明度$}{$CP0=Transparency$}" />
+<StringTable Name="$ZUNE_3D_MENU" String="{$CP936=3D视频输出$}{$CP950=3D視頻輸出$}{$CP0=3D Video Mode$}" />
+<StringTable Name="$ZUNE_VIDEO_DENOISE_D" String="{$CP936=3D 降噪$}{$CP950=3D 降噪$}{$CP0=Denoise$}" />
+<StringTable Name="$ZUNE_START_SET_RESET" String="{$CP936=设定起点｜解除起点$}{$CP950=設定起點｜解除起點$}{$CP0=L:Set A, R:Reset A$}" />
+<StringTable Name="$ZUNE_STOP_SET_RESET" String="{$CP936=设定终点｜解除终点$}{$CP950=設定終點｜解除終點$}{$CP0=L:Set B, R:Reset B$}" />
+<StringTable Name="$ZUNE_START" String="{$CP936=起点$}{$CP950=起點$}{$CP0=A$}" />
+<StringTable Name="$ZUNE_STOP" String="{$CP936=终点$}{$CP950=終點$}{$CP0=B$}" />
+<StringTable Name="$ZUNE_RESET" String="{$CP936=重置$}{$CP950=重設$}{$CP0=Reset$}" />
+
+<StringTable Name="$ZUNE_PLAYBACK" String="{$CP936=步退｜上一文件$}{$CP950=快退｜播放上一檔案$}{$CP0=L:Seek Backward, R:Play Previous$}" />
+<StringTable Name="$ZUNE_PLAYFORW" String="{$CP936=步进｜下一文件$}{$CP950=快進｜播放下一檔案$}{$CP0=L:Seek Forward, R:Play Next$}" />
+<StringTable Name="$ZUNE_PLAYBACK2" String="{$CP936=步退30秒｜步退1分钟$}{$CP950=快退30秒｜快退1分鐘$}{$CP0=L:Seek Backward 30s, R:Seek Backward 1min$}" />
+<StringTable Name="$ZUNE_PLAYFORW2" String="{$CP936=步进30秒｜步进1分钟$}{$CP950=快進30秒｜快進1分鐘$}{$CP0=L:Seek Forward 30s, R:Seek Forward 1min$}" />
+<StringTable Name="$ZUNE_PLAY" String="{$CP936=播放｜停止$}{$CP950=播放｜停止$}{$CP0=L:Play, R:Stop$}" />
+<StringTable Name="$ZUNE_PAUSE" String="{$CP936=暂停｜停止$}{$CP950=暫停｜停止$}{$CP0=L:Pause, R:Stop$}" />
+<StringTable Name="$ZUNE_PLAYLIST_CAPTION" String="{$CP936=播放列表｜字幕$}{$CP950=播放清單｜字幕$}{$CP0=L:Playlist, R:Subtitle$}" />
+<StringTable Name="$ZUNE_CBOX_OPTION" String="{$CP936=控制面板｜选项$}{$CP950=控製面版｜選項$}{$CP0=L:Control Panel, R:Preferences$}" />
+<StringTable Name="$ZUNE_MUTE_AUDIO" String="{$CP936=静音｜音轨$}{$CP950=靜音｜音軌$}{$CP0=L:Mute, R:Audio Stream$}" />
+<StringTable Name="$ZUNE_PLAYLIST_OPEN_MENU" String="{$CP936=打开｜列表管理$}{$CP950=打開清單｜清單管理$}{$CP0=L:Open, R:Playlist Menu$}" />
+<StringTable Name="$ZUNE_PLAYLIST_ADD_MENU" String="{$CP936=添加｜添加菜单$}{$CP950=添加｜添加選單$}{$CP0=L:Add, R:Add Menu$}" />
+<StringTable Name="$ZUNE_PLAYLIST_DEL_MENU" String="{$CP936=删除｜删除菜单$}{$CP950=刪除｜刪除選單$}{$CP0=L:Del, R:Del Menu$}" />
+<StringTable Name="$ZUNE_REPEAT_MENU" String="{$CP936=循环播放｜循环菜单$}{$CP950=循環播放｜循環選單$}{$CP0=L:Repeat Playback, R:Repeat Menu$}" />
+<StringTable Name="$ZUNE_SHUFFLE_VISUAL" String="{$CP936=随机播放｜可视化$}{$CP950=隨機播放｜可視化$}{$CP0=L:Shuffle Playback, R:Shuffle Menu$}" />
+<StringTable Name="$ZUNE_UP_TOP" String="{$CP936=上移｜置顶$}{$CP950=上移｜移到頂端$}{$CP0=L:Move Up, R:Move to First$}" />
+<StringTable Name="$ZUNE_DOWN_BOTTOM" String="{$CP936=下移｜置底$}{$CP950=下移｜移到底端$}{$CP0=L:Move Down, R:Move to Last$}" />
+<StringTable Name="$ZUNE_SORT_MENU" String="{$CP936=排序｜排序菜单$}{$CP950=排序｜排序選單$}{$CP0=L:Ascend, R:Sort Menu$}" />
+<StringTable Name="$ZUNE_FAV_ALBUM" String="{$CP936=收藏｜专辑$}{$CP950=收藏｜專輯$}{$CP0=L:Favorite, R:Album$}" />
+
+<StringTable Name="$ZUNE_AUDIO_CAPTURE" String="{$CP936=录制音频$}{$CP950=錄製聲音$}{$CP0=Audio Recorder$}" />
+<StringTable Name="$ZUNE_SAVE_MOVIE" String="{$CP936=录制视频$}{$CP950=錄製視訊$}{$CP0=Video Recorder$}" />
+<StringTable Name="$ZUNE_VIDEO_PROCESS" String="{$CP936=图像$}{$CP950=圖像$}{$CP0=Screen$}" />
+<StringTable Name="$ZUNE_OSD_INFO" String="{$CP936=OSD信息$}{$CP950=OSD信息$}{$CP0=OSD Messages$}" />
+<StringTable Name="$ZUNE_MASTER_VOLUME" String="{$CP936=主音量$}{$CP950=主音量$}{$CP0=Volume$}" />
+<StringTable Name="$ZUNE_SPEED_CTRL" String="{$CP936=调速｜重置$}{$CP950=調速｜重設$}{$CP0=L:Speed, R:Reset$}" />
+<StringTable Name="$ZUNE_PLAY_CTRL" String="{$CP936=播放控制$}{$CP950=播放控制$}{$CP0=Control$}" />
+<StringTable Name="$ZUNE_BOOKMARK_ADD_PREV" String="{$CP936=添加书签｜上一书签$}{$CP950=添加書籤｜上一書籤$}{$CP0=L:Add Bookmark, R:Previous Bookmark$}" />
+<StringTable Name="$ZUNE_BOOKMARK_DEL_NEXT" String="{$CP936=清除书签｜下一书签$}{$CP950=$清除書籤｜下一書籤$}{$CP0=L:Clean Bookmark, R:Next Bookmark$}" />
+<StringTable Name="$ZUNE_BOOKMARK_EDIT" String="{$CP936=书签编辑$}{$CP950=書籤編輯$}{$CP0=Bookmark Editor$}" />
+<StringTable Name="$ZUNE_ALIGN_LEFT" String="{$CP936=左对齐$}{$CP950=左對齊$}{$CP0=Align Left$}" />
+<StringTable Name="$ZUNE_ALIGN_CENTER" String="{$CP936=居中$}{$CP950=居中對齊$}{$CP0=Align Center$}" />
+<StringTable Name="$ZUNE_ALIGN_RIGHT" String="{$CP936=右对齐$}{$CP950=右對齊$}{$CP0=Align Right$}" />
+<StringTable Name="$ZUNE_OPERATION" String="{$CP936=操作$}{$CP950=操作$}{$CP0=Operation$}" />
+<StringTable Name="$ZUNE_CAPTION_SHOW" String="{$CP936=显示字幕$}{$CP950=顯示字幕$}{$CP0=Show Sub$}" />
+<StringTable Name="$ZUNE_CAPTION_HIDE" String="{$CP936=隐藏字幕$}{$CP950=隱藏字幕$}{$CP0=Hide Sub$}" />
+<StringTable Name="$ZUNE_CAPTION_EXPLORER" String="{$CP936=查看字幕$}{$CP950=瀏覽字幕$}{$CP0=Subtitle Browser$}" />
+<StringTable Name="$ZUNE_CAPTION_OPEN" String="{$CP936=打开字幕$}{$CP950=打開字幕$}{$CP0=Open Subtitle$}" />
+<StringTable Name="$ZUNE_EXPLORER" String="{$CP936=查看$}{$CP950=瀏覽$}{$CP0=Browse$}" />
+<StringTable Name="$ZUNE_OPEN" String="{$CP936=打开$}{$CP950=打開$}{$CP0=Open$}" />
+<StringTable Name="$ZUNE_SAVE" String="{$CP936=保存$}{$CP950=保存$}{$CP0=Save$}" />
+<StringTable Name="$ZUNE_SCREENSIZE" String="{$CP936=画面调整$}{$CP950=畫面調整$}{$CP0=Size$}" />
+<StringTable Name="$ZUNE_SIZE_2X_FIXED" String="{$CP936=2倍大小｜固定2倍帧$}{$CP950=2倍螢幕｜固定2倍螢幕$}{$CP0=L:Size 2X, R:Keep Size 2X$}" />
+<StringTable Name="$ZUNE_SIZE_1_5X_FIXED" String="{$CP936=1.5倍大小｜固定1.5倍帧$}{$CP950=1.5倍螢幕｜固定1.5倍螢幕$}{$CP0=L:Size 1.5X, R:Keep Size 1.5X$}" />
+<StringTable Name="$ZUNE_SIZE_1X_FIXED" String="{$CP936=1倍大小｜固定1倍帧$}{$CP950=1倍螢幕｜固定1倍螢幕$}{$CP0=L:Size 1X, R:Keep Size 1X$}" />
+<StringTable Name="$ZUNE_SIZE_0_5X_FIXED" String="{$CP936=0.5倍大小｜固定0.5倍帧$}{$CP950=0.5倍螢幕｜固定0.5倍螢幕$}{$CP0=L:Size 0.5X, R:Keep Size 0.5X$}" />
+<StringTable Name="$ZUNE_PANSCAN_INCSIZE" String="{$CP936=放大画面$}{$CP950=增加畫面尺寸$}{$CP0=Increase Frame Size$}" />
+<StringTable Name="$ZUNE_PANSCAN_DECSIZE" String="{$CP936=缩小画面$}{$CP950=減少畫面尺寸$}{$CP0=Decrease Frame Size$}" />
+<StringTable Name="$ZUNE_UP_INCHEIGHT" String="{$CP936=上移｜增加画面高度$}{$CP950=上移｜增加畫面高度$}{$CP0=L:Move Up, R:Increase Frame Height$}" />
+<StringTable Name="$ZUNE_RIGHT_INCWIDTH" String="{$CP936=右移｜增加画面宽度$}{$CP950=右移｜增加畫面寬度$}{$CP0=L:Move Right, R:Increase Frame Width$}" />
+<StringTable Name="$ZUNE_DOWN_DECHEIGHT" String="{$CP936=下移｜減少画面高度$}{$CP950=下移｜減少畫面高度$}{$CP0=L:Move Down, R:Decrease Frame Height$}" />
+<StringTable Name="$ZUNE_LEFT_DECWIDTH" String="{$CP936=左移｜減少画面宽度$}{$CP950=左移｜減少畫面寬度$}{$CP0=L:Move Left, R:Decrease Frame Width$}" />
+<StringTable Name="$ZUNE_CENTER_RESET" String="{$CP936=居中｜重置$}{$CP950=還原居中｜重設畫面$}{$CP0=L:Center, R:Reset$}" />
+<StringTable Name="$ZUNE_RATIO_BY_SIZE" String="{$CP936=调整窗口时保持比例$}{$CP950=調整視窗大小時保持比例$}{$CP0=Adjust AR to Window Size$}" />
+<StringTable Name="$ZUNE_KEEP" String="{$CP936=保持$}{$CP950=保持$}{$CP0=Keep$}" />
+<StringTable Name="$ZUNE_RATIO_APPLY" String="{$CP936=设置比例｜应用比例$}{$CP950=設置比例｜應用比例$}{$CP0=L:Custom Aspect Ratio, R:Apply/Reset$}" />
+<StringTable Name="$ZUNE_RATIO" String="{$CP936=比例$}{$CP950=比例$}{$CP0=Ratio$}" />
+<StringTable Name="$ZUNE_SETTING" String="{$CP936=设置$}{$CP950=設定$}{$CP0=Settings$}" />

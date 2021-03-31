@@ -1,0 +1,11 @@
+﻿
+	<Static Align="Right" Contain="CMD_PLAYLIST_TOGGLE" >
+		<Static Align="Top" Height="32"  ImageLeft="651" ImageTop="1081" ImageWidth="15" ImageHeight="15" LeftMargin="1" RightMargin="1">
+			<Button Tooltip="$CMD_DETACH_PLAYLIST" CmdID="CMD_ATTACH_PLAYLIST" Left="4" VertCenter="1" Width="15" Height="15" ImageLeft="60" ImageTop="1180" />
+			<Label CmdID="CMD_ALBUM_NAME_MESSAGE" Left="30" Width="-36" Height="32" FontName="#DEFAULT_UI_FONT" FontSize="14" FontBold="1" ColorX="860" ColorY="900" UsingScroll="1" ScrollDistance="1" ScrollInterval="50" HoriAlignment="1" VertAlignment="1" />
+			<Button Tooltip="$PLAYLIST_TITLE" CmdID="CMD_POPUPMENU_ALBUM" AltCmdID="CMD_POPUPMENU_ALBUM" Align="Right" OffsetLeft="-5" VertCenter="1" Width="26" Height="15" ImageLeft="120" ImageTop="1180" />
+		</Static>
+	</Static>
+	<Static Align="Right" Contain="CMD_PLAYLIST_TOGGLE" Width="4" ImageLeft="650" ImageTop="1081" ImageWidth="16" ImageHeight="15" TopMargin="1" BottomMargin="1" IsSplitter="1" MinSplitterSizeRB="256" MinSplitterSizeLT="150" OffsetTop="#OFFSET_TOP" OffsetHeight="#OFFSET_HEIGHT" >
+		<!-- 防撕裂补丁 --><Button Width="4" Height="1" GetOffset="1" />
+	</Static>

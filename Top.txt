@@ -1,0 +1,11 @@
+﻿	<Static Align="Top" State="" LeftMargin="20" RightMargin="20" ImageLeft="0" ImageTop="489" ImageWidth="410" ImageHeight="24" Height="24" UsingRgn="1" IsTitleBar="1" >
+		<Button Tooltip="$CMD_MAIN_MENU" CmdID="CMD_MAIN_MENU" Align="Left" Width="69" ImageLeft="800" ImageTop="0" ImageWidth="69" ImageHeight="16" />
+
+		<Slider CmdID="CMD_TRANS_MAIN" Left="-105" Top="9" Width="35" Height="7" ImageWidth="35" ImageHeight="7" ThumbWidth="12" ThumbHeight="7" ImageLeft="170" ImageTop="28" BackImageLeft="170" BackImageTop="28" ThumbImageLeft="214" ThumbImageTop="28" LeftMargin="6" RightMargin="6" Cursor="Hand" />
+
+		<Button Tooltip="$CMD_MIN_WINDOW" CmdID="CMD_MIN_WINDOW" Left="-69" Top="4" Width="17" Height="16" ImageLeft="271" ImageTop="23" />
+		<Button Tooltip="$CMD_MAX_WINDOW" CmdID="CMD_MAX_WINDOW" Left="-53" Top="4" Width="17" Height="16" ImageLeft="344" ImageTop="23" />
+		<Button Tooltip="$CMD_RESTORE_WINDOW" CmdID="CMD_RESTORE_WINDOW" Left="-53" Top="4" Width="17" Height="16" ImageLeft="344" ImageTop="4" />
+		<Button Tooltip="$CMD_FULL_WINDOW" CmdID="CMD_FULL_WINDOW" Left="-37" Top="4" Width="17" Height="16" ImageLeft="417" ImageTop="23" />
+		<Button Tooltip="$ID_APP_EXIT" CmdID="ID_APP_EXIT" Left="-20" Top="4" Width="17" Height="16" ImageLeft="491" ImageTop="23" />
+	</Static>

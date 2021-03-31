@@ -1,0 +1,86 @@
+﻿<?XML version="1.0" ?>
+
+<Skin Version="1.2" MinorVersion="1000">
+
+	#include<Common.txt>
+
+#if<SkinType==Touch>
+	<MainSkinAreaOscFrame WidthLimit="380" HeightLimit="0" Image="Main.png" AlphaMode="1" UseWindowFrame="0">
+		#include<logo.txt>
+		<Control>
+			<ImageReplace Image="TouchMain.png" AlphaMode="1">
+				<Static Align="Top" State="" LeftMargin="20" RightMargin="20" ImageLeft="2" ImageTop="673" ImageWidth="571" ImageHeight="4" Height="4" UsingRgn="1" />
+				<Static Align="Bottom" State="" LeftMargin="20" RightMargin="340" ImageLeft="2" ImageTop="849" ImageWidth="571" ImageHeight="4" Height="4" UsingRgn="1" />
+				<Static Align="Left" State="" TopMargin="42" BottomMargin="84" ImageLeft="2" ImageTop="677" ImageWidth="4" ImageHeight="172" Width="4" />
+				<Static Align="Right" State="" TopMargin="42" BottomMargin="84" ImageLeft="569" ImageTop="677" ImageWidth="4" ImageHeight="172" Width="4" />
+			</ImageReplace>
+			#include<TouchRight.txt>
+			<Static Align="Client" State="" Contain="CMD_VIDEO_WINDOW" />
+		</Control>
+	</MainSkinAreaOscFrame>
+	<MainSkinAreaOscInside Image="Main.png">
+		#include<logo.txt>
+		<Control>
+			#include<TouchTop.txt>
+			#include<TouchBottom.txt>
+		</Control>
+	</MainSkinAreaOscInside>
+#endif
+
+#if<SkinType==Touch>
+	<MainSkinArea WidthLimit="560"
+#else
+	<MainSkinArea WidthLimit="220" ForceMinWidth="1" ForceMinHeight="1"
+#endif
+		HeightLimit="0" Image="Main.png" AlphaMode="1" UseWindowFrame="0" >
+		#include<logo.txt>
+		<Control>
+			#if<SkinType==Touch>
+				<ImageReplace Image="TouchMain.png" AlphaMode="1">
+					<Static Align="Top" State="" LeftMargin="20" RightMargin="20" ImageLeft="2" ImageTop="673" ImageWidth="571" ImageHeight="4" Height="4" UsingRgn="1" />
+					<Static Align="Bottom" State="" LeftMargin="20" RightMargin="20" ImageLeft="2" ImageTop="849" ImageWidth="571" ImageHeight="4" Height="4" UsingRgn="1" />
+					<Static Align="Left" State="" TopMargin="42" BottomMargin="84" ImageLeft="2" ImageTop="677" ImageWidth="4" ImageHeight="172" Width="4" />
+					<Static Align="Right" State="" TopMargin="42" BottomMargin="84" ImageLeft="569" ImageTop="677" ImageWidth="4" ImageHeight="172" Width="4" />
+				</ImageReplace>
+				#include<TouchTop.txt>
+				#include<TouchRight.txt>
+				#include<TouchBottom.txt>
+			#else
+				<Static Align="Top" State="" LeftMargin="181" RightMargin="7" ImageLeft="0" ImageTop="915" ImageWidth="233" ImageHeight="31" Height="31" UsingRgn="1" >
+
+					<Layout Align="Left" Width="8" />
+					<Label CmdID="CMD_TITLE_WITH_MESSAGE" ColorX="694" ColorY="1035" UsingScroll="1" ScrollDistance="1" ScrollInterval="50" Align="Left" Width="170" Height="14" FontName="{$CP949=Doutm$}{$CP0=#DEFAULT_UI_FONT$}" FontSize="11" VertAlignment="1" />
+
+					<Visual VisMinWidth="20" Left="181" Top="10" Width="-7" Height="11" BarWidth="4" BarDistance="1" LineDistance="1" LineHeight="1"
+						BarStartColorX="864" BarStartColorY="543" BarEndColorX="864" BarEndColorY="543" OscColorX="864" OscColorY="543" RefreshTime="25" PeakHeight="1" PeakColorX="864" PeakColorY="543" />
+				</Static>
+
+				<Static Align="Bottom" State="" LeftMargin="10" RightMargin="10" TopMargin="0" BottomMargin="0" ImageLeft="0" ImageTop="946" ImageWidth="233" ImageHeight="24" Height="24" UsingRgn="1" >
+
+					<Button Tooltip="$CMD_MEDIA_PLAY" CmdID="CMD_MEDIA_PLAY" Left="6" Top="5" Width="13" Height="14" ImageLeft="0" ImageTop="1091" />
+					<Button Tooltip="$CMD_MEDIA_PAUSE" CmdID="CMD_MEDIA_PAUSE" Left="6" Top="5" Width="14" Height="14" ImageLeft="264" ImageTop="1091" />
+					<Button Tooltip="$CMD_MEDIA_CLOSE" CmdID="CMD_MEDIA_CLOSE" Left="24" Top="5" Width="12" Height="14" ImageLeft="56" ImageTop="1091" />
+					<Button Tooltip="$ID_PLAYBACK_5SEC_BACK_PREV" CmdID="ID_PLAYBACK_5SEC_BACK" AltCmdID="ID_PROCESS_PREV" Left="41" Top="5" Width="12" Height="14" ImageLeft="108" ImageTop="1091" />
+					<Button Tooltip="$ID_PLAYBACK_5SEC_FORW_NEXT" CmdID="ID_PLAYBACK_5SEC_FORW" AltCmdID="ID_PROCESS_NEXT" Left="58" Top="5" Width="12" Height="14" ImageLeft="160" ImageTop="1091" />
+					<Button Tooltip="$ID_OPEN_FILE" CmdID="ID_OPEN_FILE" Left="75" Top="5" Width="12" Height="14" ImageLeft="212" ImageTop="1091" />
+
+					<Slider VisParentMinWidth="270" CmdID="CMD_TIMEBAR_CTRL" Left="95" Top="6" Width="-135" Height="15" ImageWidth="102" ImageHeight="15" ThumbWidth="13" ThumbHeight="13"
+						ImageLeft="0" ImageTop="279" BackImageLeft="0" BackImageTop="267" AltImageLeft="0" AltImageTop="290" ThumbImageLeft="0" ThumbImageTop="319"
+						LeftMargin="10" RightMargin="10" RepeatAImageLeft="148" RepeatAImageTop="321" RepeatBImageLeft="155" RepeatBImageTop="321" RepeatImageWidth="7" RepeatImageHeight="11"
+						BookmarkImageLeft="171" BookmarkImageTop="321" SeamlessImageLeft="188" SeamlessImageTop="321" Cursor="Hand" />
+
+					<Button Tooltip="$ID_AUDIO_MUTE" CmdID="ID_AUDIO_MUTE" Left="-128" Top="5" Width="15" Height="13" ImageLeft="0" ImageTop="243" Cursor="Hand" />
+					<Slider CmdID="CMD_VOLUME_CTRL" Left="-110" Top="6" Width="70" Height="15" ImageWidth="102" ImageHeight="15" ThumbWidth="13" ThumbHeight="13" ImageLeft="0" ImageTop="279" BackImageLeft="0" BackImageTop="290" ThumbImageLeft="0" ThumbImageTop="319" LeftMargin="5" RightMargin="5" />
+
+					<Button Tooltip="$CMD_LOAD_SKIN_XML_DEF" CmdID="CMD_LOAD_SKIN_XML" String="AudioSkin.xml" Left="-37" Top="4" Width="17" Height="16" ImageLeft="384" ImageTop="1124" />
+					<Button Tooltip="$ID_APP_EXIT" CmdID="ID_APP_EXIT" Left="-20" Top="4" Width="17" Height="16" ImageLeft="456" ImageTop="1124" />
+
+				</Static>
+			#endif
+			<Static Align="Client" State="" Contain="CMD_VIDEO_WINDOW" />
+		</Control>
+	</MainSkinArea>
+
+	#include<SubCommon.txt #CONTROL=None #LEFT=-58>
+
+</Skin>

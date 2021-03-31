@@ -1,0 +1,28 @@
+﻿	<Static Align="Bottom" Height="80">
+		<Static VisParentMinWidth="435" Align="Left" State="CMD_COVER_IMAGE" Width="80" Height="80">
+			<Image CmdID="CMD_COVER_IMAGE" Enabled="1" Left="0" Top="0" Width="80" Height="80" />
+		</Static>
+		<Static Align="Client" LeftMargin="296" RightMargin="2" TopMargin="0" BottomMargin="0" ImageLeft="258" ImageTop="915" ImageWidth="388" ImageHeight="80" Height="80" >
+			<Label CmdID="CMD_CURRENTTIME_MIN_MESSAGE" ColorX="694" ColorY="1051" Left="20" Top="16" Width="200" Height="34" FontBold="1" FontName="Arial" FontSize="33" />
+			<Label CmdID="CMD_TOTALTIME_MIN_MESSAGE" ColorX="694" ColorY="1067" Left="43" Top="54" Width="60" Height="15" FontBold="1" FontName="Arial" FontSize="15" />
+
+			<Label CmdID="CMD_CAPTION_WITH_MESSAGE" ColorX="694" ColorY="1018" UsingScroll="1" ScrollDistance="1" ScrollInterval="50" Left="124" Top="22" Width="156" Height="16" FontBold="1" FontName="#DEFAULT_UI_FONT" FontSize="12" VisParentMinWidth="346" />
+			<Label CmdID="CMD_CAPTION_WITH_MESSAGE" ColorX="694" ColorY="1018" UsingScroll="1" ScrollDistance="1" ScrollInterval="50" Left="124" Top="22" Width="-20" Height="16" FontBold="1" FontName="#DEFAULT_UI_FONT" FontSize="12" VisParentMaxWidth="347" />
+
+			<Label CmdID="CMD_AUDIO_CODEC_TYPE_MESSAGE" ColorX="694" ColorY="1067" Left="112" Top="45" Width="31" Height="11" FontName="Tahoma" FontSize="9" HoriAlignment="2" VertAlignment="1" />
+
+			<Label CmdID="CMD_AUDIO_BIT_RATE_MESSAGE" Text="%sKbps" ColorX="694" ColorY="1067" Left="151" Top="45" Width="42" Height="11" FontName="Tahoma" FontSize="9" HoriAlignment="1" VertAlignment="1" />
+
+			<Label CmdID="CMD_AUDIO_OUT_SAMPLE_RATE_K_MESSAGE" Text="%sKHz" ColorX="694" ColorY="1067" Left="200" Top="45" Width="40" Height="11" FontName="Tahoma" FontSize="9" HoriAlignment="0" VertAlignment="1" />
+
+			<Visual VisMinWidth="50" Left="295" Top="16" Width="-1" Height="29" BarWidth="4" BarDistance="1" LineDistance="1" LineHeight="1" BarStartColorX="864" BarStartColorY="543" BarEndColorX="864" BarEndColorY="543" OscColorX="864" OscColorY="543" RefreshTime="25" PeakHeight="1" PeakColorX="864" PeakColorY="543" />
+
+			<Button Tooltip="$ZUNE_START_SET_RESET" CmdID="ID_PLAY_REPEAT_START_SET" AltCmdID="ID_PLAY_REPEAT_START_RESET" Left="-109" Top="56" Width="16" Height="13" ImageLeft="0" ImageTop="1124" />
+			<Button Tooltip="$ID_PLAY_REPEAT_RESET" CmdID="ID_PLAY_REPEAT_RESET" Left="-90" Top="56" Width="15" Height="13" ImageLeft="212" ImageTop="1144" />
+			<Button Tooltip="$ZUNE_STOP_SET_RESET" CmdID="ID_PLAY_REPEAT_STOP_SET" AltCmdID="ID_PLAY_REPEAT_STOP_RESET" Left="-72" Top="56" Width="16" Height="13" ImageLeft="76" ImageTop="1124" />
+
+			<Button Tooltip="$ZUNE_REPEAT_MENU" CmdID="ID_PLAYBACK_REPEAT" AltCmdID="CMD_POPUPMENU_PLAY_REPEAT2" Left="-53" Top="56" Width="16" Height="13" ImageLeft="144" ImageTop="1124" />
+			<Button Tooltip="$ZUNE_SHUFFLE_VISUAL" CmdID="ID_PLAYBACK_SHUFFLE" AltCmdID="CMD_POPUPMENU_VISUAL" Left="-34" Top="56" Width="16" Height="13" ImageLeft="212" ImageTop="1124" />
+		<Button Tooltip="$CMD_CLOSE_WINDOW" CmdID="ID_APP_EXIT" Left="-18" Top="4" ImageLeft="480" ImageTop="5" Width="12" Height="11" VisParentMaxWidth="347" />
+		</Static>
+	</Static>

@@ -1,0 +1,69 @@
+﻿	<Static Align="Bottom" State="" Height="70" ImageLeft="670" ImageTop="1080" ImageWidth="17" ImageHeight="17" LeftMargin="1" RightMargin="1" UsingRgn="0" >
+
+		<Label CmdID="CMD_TITLE_MESSAGE" Left="24" Top="-56" Width="-180" Height="18" FontName="#DEFAULT_UI_FONT" FontSize="13" TextColor="0xFFFFFF" UsingScroll="1" ScrollDistance="1" ScrollInterval="50" HoriAlignment="0" VertAlignment="1" VisParentMinWidth="400" />
+		<Slider CmdID="CMD_TIMEBAR_CTRL" Left="24" Top="-36" Width="-165" Height="9"
+			ImageLeft="120" ImageTop="218" ImageWidth="60" ImageHeight="9" LeftMargin="1" RightMargin="1"
+			AltImageLeft="180" AltImageTop="218"
+			BackImageLeft="240" BackImageTop="218"
+			ThumbImageLeft="0" ThumbImageTop="230" ThumbWidth="4" ThumbHeight="9"
+			RepeatImageWidth="5" RepeatImageHeight="9"
+			RepeatAImageLeft="13" RepeatAImageTop="230" RepeatBImageLeft="19" RepeatBImageTop="230"
+			BookmarkImageLeft="25" BookmarkImageTop="230"
+			SeamlessImageLeft="25" SeamlessImageTop="230" VisParentMinWidth="400"
+			Cursor="Hand"
+		/>
+
+		<Image CmdID="ID_PLAYINFO_WINDOW" AltCmdID="CMD_MAIN_MENU" Left="24" Top="-27" Width="48" Height="12" VisParentMinWidth="400" Enabled="1" Cursor="Help" />
+		<Label CmdID="CMD_CURRENTTIME_MESSAGE" Left="24" Top="-27" Width="48" Height="12" VisParentMinWidth="400" FontName="Tahoma" FontSize="11" TextColor="0xBBBBBB" />
+		<Image CmdID="ID_PLAYINFO_WINDOW" AltCmdID="CMD_MAIN_MENU" Left="-210" Top="-27" Width="48" Height="12" VisParentMinWidth="400" Enabled="1" Cursor="Help" />
+		<Label CmdID="CMD_TOTALTIME_MESSAGE" Left="-210" Top="-27" Width="48" Height="12" VisParentMinWidth="400" FontName="Tahoma" FontSize="11" TextColor="0xBBBBBB" />
+
+		#if<SkinName==WdmSkin>
+			<Button Tooltip="$ID_WDM_FORCE_PREV_CH" CmdID="ID_PROCESS_NEXT" AltCmdID="ID_WDM_FORCE_PREV_CH" Left="-142" Top="-52" Width="25" Height="25" ImageTop="175" VisParentMinWidth="400" />
+		#else
+			<Button Tooltip="$ZUNE_PLAYBACK" CmdID="ID_PLAYBACK_5SEC_BACK" AltCmdID="ID_PROCESS_PREV" Left="-142" Top="-52" Width="25" Height="25" ImageTop="175" VisParentMinWidth="400" />
+		#endif
+		<Button Tooltip="$ZUNE_PLAY" CmdID="CMD_MEDIA_PLAY" AltCmdID="CMD_MEDIA_CLOSE" Left="-110" Top="-58" Width="35" Height="35" ImageTop="80" VisParentMinWidth="400" />
+		<Button Tooltip="$ZUNE_PAUSE" CmdID="CMD_MEDIA_PAUSE" AltCmdID="CMD_MEDIA_CLOSE" Left="-110" Top="-58" Width="35" Height="35" ImageTop="115" VisParentMinWidth="400" />
+		#if<SkinName==WdmSkin>
+			<Button Tooltip="$ID_WDM_FORCE_NEXT_CH" CmdID="ID_PROCESS_PREV" AltCmdID="ID_WDM_FORCE_NEXT_CH" Left="-68" Top="-52" Width="25" Height="25" ImageTop="150" VisParentMinWidth="400" />
+		#else
+			<Button Tooltip="$ZUNE_PLAYFORW" CmdID="ID_PLAYBACK_5SEC_FORW" AltCmdID="ID_PROCESS_NEXT" Left="-68" Top="-52" Width="25" Height="25" ImageTop="150" VisParentMinWidth="400" />
+		#endif
+		<Button Tooltip="$ZUNE_PLAYLIST_CAPTION" CmdID="ID_PLAYLIST_WINDOW" AltCmdID="CMD_POPUPMENU_CAPTION_LANG" Left="-34" Top="-47" Width="16" Height="16" ImageTop="60" VisParentMinWidth="400" />
+		<Button Tooltip="$ZUNE_CBOX_OPTION" CmdID="ID_CONTROL_BOX_WINDOW" AltCmdID="ID_OPTION_WINDOW" Left="-34" Top="-24" Width="16" Height="16" ImageLeft="60" ImageTop="60" VisParentMinWidth="400" />
+		<Button Tooltip="$ZUNE_MUTE_AUDIO" CmdID="ID_AUDIO_MUTE" AltCmdID="CMD_POPUPMENU_AUDIO_LANG" DownFlag="1" Left="-141" Top="-22" Width="19" Height="16" ImageTop="202" VisParentMinWidth="400" />
+		<Slider CmdID="CMD_VOLUME_CTRL" Left="-118" Top="-18" Width="72" Height="9" ImageWidth="60" ImageHeight="9" ImageLeft="180" ImageTop="218" ThumbWidth="4" ThumbHeight="9" ThumbImageLeft="40" ThumbImageTop="230" BackImageLeft="180" BackImageTop="218" LeftMargin="0" RightMargin="0" VisParentMinWidth="400" Cursor="Hand" />
+
+		<!-- 迷你窗口 Begin-->
+		<Slider CmdID="CMD_TIMEBAR_CTRL" Left="20" Top="-54" Width="-20" Height="9"
+			ImageLeft="120" ImageTop="218" ImageWidth="60" ImageHeight="9" LeftMargin="1" RightMargin="1"
+			AltImageLeft="180" AltImageTop="218"
+			BackImageLeft="240" BackImageTop="218"
+			ThumbImageLeft="0" ThumbImageTop="230" ThumbWidth="4" ThumbHeight="9"
+			RepeatImageWidth="5" RepeatImageHeight="9"
+			RepeatAImageLeft="13" RepeatAImageTop="230" RepeatBImageLeft="19" RepeatBImageTop="230"
+			BookmarkImageLeft="25" BookmarkImageTop="230"
+			SeamlessImageLeft="25" SeamlessImageTop="230" VisParentMaxWidth="401"
+			Cursor="Hand"
+		/>
+		<Label CmdID="CMD_MEDIATIME_MIN_MESSAGE" Left="20" Top="-23" Width="96" Height="12" FontName="Tahoma" FontSize="11" TextColor="0xBBBBBB" VisParentMaxWidth="401" />
+
+		#if<SkinName==WdmSkin>
+			<Button Tooltip="$ID_WDM_FORCE_PREV_CH" CmdID="ID_PROCESS_NEXT" AltCmdID="ID_WDM_FORCE_PREV_CH" Left="-40" Top="-32" Width="25" Height="25" ImageTop="175" HoriCenter="1" VisParentMaxWidth="401" />
+		#else
+			<Button Tooltip="$ZUNE_PLAYBACK" CmdID="ID_PLAYBACK_5SEC_BACK" AltCmdID="ID_PROCESS_PREV" Left="-40" Top="-32" Width="25" Height="25" ImageTop="175" HoriCenter="1" VisParentMaxWidth="401" />
+		#endif
+		<Button Tooltip="$ZUNE_PLAY" CmdID="CMD_MEDIA_PLAY" AltCmdID="CMD_MEDIA_CLOSE" Left="0" Top="-38" Width="35" Height="35" ImageTop="80" HoriCenter="1" VisParentMaxWidth="401" />
+		<Button Tooltip="$ZUNE_PAUSE" CmdID="CMD_MEDIA_PAUSE" AltCmdID="CMD_MEDIA_CLOSE" Left="0" Top="-38" Width="35" Height="35" ImageTop="115" HoriCenter="1" VisParentMaxWidth="401" />
+		#if<SkinName==WdmSkin>
+			<Button Tooltip="$ID_WDM_FORCE_NEXT_CH" CmdID="ID_PROCESS_PREV" AltCmdID="ID_WDM_FORCE_NEXT_CH" Left="40" Top="-32" Width="25" Height="25" ImageTop="150" HoriCenter="1" VisParentMaxWidth="401" />
+		#else
+			<Button Tooltip="$ZUNE_PLAYFORW" CmdID="ID_PLAYBACK_5SEC_FORW" AltCmdID="ID_PROCESS_NEXT" Left="40" Top="-32" Width="25" Height="25" ImageTop="150" HoriCenter="1" VisParentMaxWidth="401" />
+		#endif
+		<Button Tooltip="$ZUNE_CBOX_OPTION" CmdID="ID_CONTROL_BOX_WINDOW" AltCmdID="ID_OPTION_WINDOW" Left="-55" Top="-24" Width="16" Height="16" ImageLeft="60" ImageTop="60" VisParentMaxWidth="401" />
+		<Button Tooltip="$ZUNE_PLAYLIST_CAPTION" CmdID="ID_PLAYLIST_WINDOW" AltCmdID="CMD_POPUPMENU_CAPTION_LANG" Left="-34" Top="-24" Width="16" Height="16" ImageTop="60" VisParentMaxWidth="401" />
+		<Button Tooltip="$ZUNE_MUTE_AUDIO" CmdID="ID_AUDIO_MUTE" AltCmdID="CMD_POPUPMENU_AUDIO_LANG" DownFlag="1" Left="69" Top="-28" Width="19" Height="16" ImageTop="202" HoriCenter="1" VisParentMaxWidth="401" />
+		<!-- 迷你窗口 End -->
+
+	</Static>

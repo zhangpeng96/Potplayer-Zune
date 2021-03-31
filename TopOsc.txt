@@ -1,0 +1,16 @@
+﻿	<Static Align="Top" Height="30" ImageLeft="260" ImageTop="60" ImageWidth="9" ImageHeight="30" LeftMargin="4" RightMargin="4" AltImageLeft="260" AltImageTop="60" IsTitleBar="1" UsingRgn="0" >
+		<!-- 左 Begin -->
+		<Button Tooltip="$ZUNE_FILTER_RATIO" CmdID="CMD_POPUPMENU_VIDEO_FILTER" AltCmdID="CMD_POPUPMENU_RATIO" Align="Left" OffsetLeft="3" Width="22" Height="24" ImageTop="24" VisParentMinWidth="#MIN_WIDTH" Cursor="Arrow" />
+		<Button Tooltip="$ZUNE_CAPTURE_BUTTON" CmdID="ID_VIDEO_IMAGE_CAPTURE" AltCmdID="ID_CAPTURE_MENU" Align="Left" OffsetLeft="3" Width="22" Height="24" VisParentMinWidth="#MIN_WIDTH" Cursor="Arrow" />
+		<Button Tooltip="$ZUNE_ONTOP_BUTTON" CmdID="ID_ETC_NEXTONTOP" AltCmdID="CMD_POPUPMENU_ETC_ONTOP" Align="Left" OffsetLeft="3" Width="26" Height="24" ImageLeft="66" Cursor="Arrow" />
+		<Label CmdID="CMD_TITLE_MESSAGE" Left="37" OffsetTop="-2" Width="-109" FontName="#DEFAULT_UI_FONT" FontSize="14" TextColor="0x000000" UsingScroll="1" ScrollDistance="1" ScrollInterval="50" VertAlignment="1" VisParentMaxWidth="#MAX_WIDTH" />
+		<Label CmdID="CMD_TITLE_MESSAGE" Left="36" OffsetTop="-3" Width="-110" FontName="#DEFAULT_UI_FONT" FontSize="14" TextColor="0xF6F6F6" UsingScroll="1" ScrollDistance="1" ScrollInterval="50" VertAlignment="1" VisParentMaxWidth="#MAX_WIDTH" />
+		<!-- 左 End -->
+		<!-- 右 Begin -->
+		<Slider Tooltip="$ZUNE_TRANS" CmdID="CMD_TRANS_MAIN" Left="-169" Top="10" Width="60" Height="7" ImageWidth="60" ImageHeight="7" ImageLeft="120" ImageTop="230" ThumbWidth="4" ThumbHeight="7" ThumbImageLeft="180" ThumbImageTop="230" BackImageLeft="120" BackImageTop="230" VisParentMinWidth="479" Cursor="Hand" />
+		<Button Tooltip="$ZUNE_CLOSE_WINDOW" CmdID="ID_APP_EXIT" AltCmdID="CMD_POPUPMENU_ETC_COMPLETE" Align="Right" Width="39" Height="30" ImageLeft="300" ImageTop="60" Cursor="Arrow" />
+		<Button Tooltip="$ZUNE_RESTORE_WINDOW" CmdID="CMD_RESTORE_WINDOW" AltCmdID="CMD_FULL_WINDOW" Align="Right" Width="30" Height="30" ImageLeft="300" ImageTop="91" Cursor="Arrow" />
+		<Button Tooltip="$ZUNE_MAX_WINDOW" CmdID="CMD_MAX_WINDOW" AltCmdID="CMD_FULL_WINDOW" Align="Right" Width="30" Height="30" ImageLeft="300" ImageTop="122" Cursor="Arrow" />
+		<Button Tooltip="$ZUNE_MIN_WINDOW" CmdID="ID_MINSCREEN" AltCmdID="CMD_POPUPMENU_SIZE" Align="Right" Width="30" Height="30" ImageLeft="300" ImageTop="153" Cursor="Arrow" />
+		<!-- 右 End -->
+	</Static>
